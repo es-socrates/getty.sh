@@ -12,7 +12,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
-    "postbuild": "xcopy /E /Y /I docs\\.vuepress\\dist\\* docs\\",
+    "postbuild": "if [ \"$(uname)\" = \"Linux\" ]; then cp -r docs/.vuepress/dist/* docs/; else xcopy /E /Y /I docs\\.vuepress\\dist\\* docs\\; fi",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update"
   },
