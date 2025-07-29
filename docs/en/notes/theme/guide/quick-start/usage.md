@@ -1,0 +1,114 @@
+---
+title: Installation
+icon: grommet-icons:install
+createTime: 2025/07/28 10:00
+permalink: /en/guide/usage/
+tags:
+  - Guide
+  - Quick Start
+---
+
+## How to install and configure Getty
+
+If you want to boost your live performances with Getty on Odysee, follow this step-by-step guide.
+
+## Prerequisites
+
+**What is Node.js?** Node.js is an out-of-browser JavaScript runtime environment designed for building server-side applications and command-line tools. It is fast, efficient and essential for many modern streaming tools (such as Getty) and web applications.
+
+## Why does Getty use Node.js?
+
+- It allows you to run JavaScript on your computer (not just in a browser).
+- It's lightweight and fast, ideal for real-time applications (like stream alerts).
+- It has access to the file system and networks, necessary to connect Getty with OBS, Discord, etc.
+- It uses npm (Node Package Manager), which simplifies the installation of dependencies (external libraries that Getty needs to work).
+
+::: important
+
+**Do I need to know programming to use it?** No! Just install it (like any other program) and follow the steps in the tutorial. Getty is already programmed; Node.js is just the "engine" that makes it work.
+
+:::
+
+## How to install Node.js?
+
+- Download the LTS version (recommended) from [Node.js](https://nodejs.org/).
+- Run the installer (next, next... ✔️).
+- Verify that it works by opening your terminal and typing:
+
+```sh
+node -v
+npm -v
+```
+
+## Why is there no traditional .exe/installer?
+
+**Getty uses Node.js because:** It's cross-platform (runs on Windows, macOS, Linux). It allows fast updates (with git pull and npm install). It is the standard for developer tools.
+
+## How to install the dependency environment?
+
+::: steps
+
+1. **Clone or download the repository**
+
+If you're familiar with GitHub, you'll need to download the repository using any Git environment of your choice. **Option B:** Download the files in ZIP format and extract the folder to your PC.
+
+2. **Open the terminal in the Getty folder**
+
+Navigate to the folder where Getty is (example): cd path/to/the/folder/getty. Or, from the same folder, right click, open terminal and run the following command:
+
+```sh
+npm install
+```
+
+This will install everything necessary for Getty to work
+
+3. **Configure the .env file**
+
+Rename the .env.example file to .env. Edit it and replace the three (3) xxx with your Arweave (AR) wallet address in Odysee. The other three (3) xxx with the ClaimID of your Odysee live stream.
+
+```sh
+WALLET_ADDRESS=xxx
+GOAL_AR=10
+STARTING_AR=0
+ODYSEE_WS_URL=wss://sockety.odysee.tv/ws/commentron?id=xxx
+PORT=3000
+```
+
+4. **Build and run Getty**
+
+Build the application with this command:
+
+```sh
+npm run build
+```
+Start the application with this command:
+
+```sh
+npm start
+```
+
+5. **Done! Access Getty in your browser**
+
+Open your browser and go to the following address to view the Getty ==homepage==.
+
+```sh
+http://localhost:3000
+```
+
+To enter the ==administrator== you must go to the following address or from the user menu.
+
+```sh
+http://localhost:3000/admin.html
+```
+
+⚡ Configure your widgets (tip alerts, chat, goals, etc.) and add them to OBS.
+
+::::
+
+## How to add widgets to OBS?
+
+- Open OBS Studio.
+- Add a new "Browser Source".
+- Paste the Getty URL (e.g. http://localhost:3000/widget-chat).
+- Adjust the size and position.
+- Done! The widgets will appear in your stream.

@@ -1,0 +1,138 @@
+---
+title: Getty Structure
+icon: ph:tree-structure-bold
+createTime: 2025/07/28 11:00
+permalink: /en/guide/project-structure/
+---
+
+### Here is the detailed folder structure of the Getty project based on the repository
+
+::: file-tree
+
+- .git/
+- **getty**
+  - modules
+    - chat.js
+    - external-notifications.js
+    - language-config.js
+    - last-tip.js
+    - raffle.js
+    - tip-goal.js
+    - tip-widget.js
+  - public
+    - assets
+      - getty-fav.png
+      - getty.png
+      - gettydark.png
+      - odysee.png
+    - css
+      - admin.css
+      - styles.css
+      - theme.css
+    - js
+      - admin.js
+      - app.js
+      - chat.js
+      - languages.js
+      - last-tip.js
+      - persistent-notifications.js
+      - raffle-admin.js
+      - tip-goal.js
+      - tip-widget.js
+    - widgets
+      - chat.css
+      - chat.html
+      - last-tip.css
+      - last-tip.html
+      - obs-config.js
+      - persistent-notifications.css
+      - persistent-notifications.html
+      - raffle.css
+      - raffle.html
+      - tip-goal.css
+      - tip-goal.html
+      - tip-notification.css
+      - tip-notification.html
+  - admin.html
+  - emojis.json
+  - index.html
+  - src
+    - input.css
+- .env.example
+- .gitignore
+- .stylelintrc
+- INTERNATIONALIZATION.md
+- LICENSE
+- README.md
+- package-lock.json
+- package.json
+- postcss.config.js
+- server.js
+- tailwind.config.js
+- tts-settings.json
+  :::
+
+::: important
+
+The project structure will be modified in the future, and you will have to update the repository or download the repository (folder) again. If you make any modifications on your own, check which file needs to be backed up.
+
+:::
+
+## Styles in OBS in the chat widget
+
+The **chat widget has styles defined in css**, and although you can change colors from the admin, maybe some styles can help to visually adapt to your needs in the OBS screen, although it is not mandatory to use it. Remember, you are free to play with the style you want in Getty.
+
+This style goes inside the font in OBS, in the css customization.
+
+```css title="chat.html"
+  body { 
+  background-color: rgba(0,0,0,0) !important; 
+  overflow: hidden !important;
+}
+
+.message-text-inline {
+    font-size: 22px;
+}
+
+.message-username.cyberpunk {
+    font-size: 22px;
+}
+
+.message-avatar {
+    width: 38px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #21262d;
+}
+
+.message-avatar img {
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+}
+
+.comment-emoji,
+.message-content .comment-emoji {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    margin: 10px 2px;
+    max-width: 24px;
+}
+
+.message.has-donation .message-username {
+    font-size: 22px;
+}
+
+.message.has-donation .message-text-inline {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: var(--odysee-font-family);
+    white-space: normal;
+}
+
+.message-donation {
+    font-size: 18px;
+}
+```
