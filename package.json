@@ -2,8 +2,8 @@
   "name": "getty",
   "type": "module",
   "version": "1.0.0",
-  "description": "App widget for Odysee streamers to manage chat tip notification, tip goals, and notification. All in real time, without registration or databases.",
-  "author": "Sócrates <mitnickve@protonmail.com>",
+  "description": "Widget app for tip notifications, tip goals, chat rewards and display real-time alerts for your livestreams in Odysee.",
+  "author": "Sócrates",
   "license": "MIT",
   "engines": {
     "node": "^20.6.0 || >=22.0.0"
@@ -12,6 +12,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "postbuild": "xcopy /E /Y /I docs\\.vuepress\\dist\\* docs\\",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update"
   },
