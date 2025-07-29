@@ -8,7 +8,7 @@ tags:
   - Quick Start
 ---
 
-## How to install and configure Getty
+## ==How to install and configure Getty==
 
 If you want to boost your live performances with Getty on Odysee, follow this step-by-step guide.
 
@@ -20,8 +20,10 @@ If you want to boost your live performances with Getty on Odysee, follow this st
 
 - It allows you to run JavaScript on your computer (not just in a browser).
 - It's lightweight and fast, ideal for real-time applications (like stream alerts).
-- It has access to the file system and networks, necessary to connect Getty with OBS, Discord, etc.
+- It has access to the file system and networks, necessary to connect ==Getty== with OBS, Discord, etc.
 - It uses npm (Node Package Manager), which simplifies the installation of dependencies (external libraries that Getty needs to work).
+
+![nodejs](https://thumbs.odycdn.com/ef506c21c0db1d42e9abd7a8180e98eb.webp)
 
 ::: important
 
@@ -105,10 +107,28 @@ http://localhost:3000/admin.html
 
 ::::
 
+![getty](https://thumbs.odycdn.com/4aea46156da752d9b26664ae4ecd53ce.webp)
+
 ## How to add widgets to OBS?
 
-- Open OBS Studio.
+- Open the OBS Studio software.
 - Add a new "Browser Source".
-- Paste the Getty URL (e.g. http://localhost:3000/widget-chat).
-- Adjust the size and position.
-- Done! The widgets will appear in your stream.
+- Paste the URL of your widget: (e.g. localhost:3000/widgets/chat.html).
+- Adjust the size, position and color of each widget.
+- You're done! The widgets will appear in your stream. Let's stream!
+
+::: timeline horizontal
+- Install Getty
+
+- OBS Studio
+  type=success
+
+- URL of the widget
+  type=danger
+
+- Customize everything
+  type=important
+
+- Stream live
+  type=success
+:::

@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Odysee App Widget
-      tagline: para directos de Odysee
-      text: Gratis, open source y sin registros.
+      name: Aplicación de widgets
+      tagline: para directos en Odysee
+      text: Gratis, de código abierto y sin registro.
       actions:
         -
           theme: brand
@@ -25,7 +25,7 @@ config:
       -
         title: Diseño responsivo
         icon: iconoir:pc-check
-        details: Getty se adapta a dispositivos móviles, PC y tablets.
+        details: Getty se adapta a dispositivos móviles, PC y tablets. Tus widgets en todas partes, siempre.
       -
         title: Blog y documentación
         icon: bi:file-text
@@ -37,13 +37,13 @@ config:
       -
         title: Multi-idioma
         icon: flowbite:language-outline
-        details: Puedes cambiar el idioma de la app en cualquier momento. ¡Po-ta-to!
+        details: Puedes cambiar el idioma de la app en cualquier momento. Por ahora inglés y español. ¡Pa-ta-to!
       -
         title: Tema dual
         icon: fluent:dark-theme-24-regular
-        details: Soporta temas claro/oscuro, incluyendo resaltado de texto.
+        details: Soporta temas claro/oscuro, incluyendo resaltado de texto. No afecta widgets en OBS.
       -
         title: Widgets
         icon: fluent:box-16-regular
-        details: Widgets integrados para mejorar tus directos en Odysee.
+        details: Widgets integrados para mejorar tus directos en Odysee. ¡Tips, alertas, sorteos y mucho más!
 ---

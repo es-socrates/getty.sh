@@ -25,7 +25,7 @@ config:
       -
         title: Responsive Layout
         icon: iconoir:pc-check
-        details: Getty is responsive to mobile, PC, and tablet devices.
+        details: Getty is responsive to mobile, PC, and tablet devices. Your widgets everywhere, always.
       -
         title: Blog & Documentation
         icon: bi:file-text
@@ -37,13 +37,13 @@ config:
       -
         title: Multi-language
         icon: flowbite:language-outline
-        details: Yes, you can change the app's language at any time. Po-ta-to!!
+        details: Yes, you can change the app's language at any time. For now English and Spanish. Po-ta-to!!
       -
         title: Dual Color Theme
         icon: fluent:dark-theme-24-regular
-        details: Supports light/dark themes, including text highlighting.
+        details: Supports light/dark themes, including text highlighting. Does not affect widgets in OBS.
       -
         title: Widgets
         icon: fluent:box-16-regular
-        details: Built-in widgets to enhance your live streams on Odysee.
+        details: Built-in widgets to enhance your live streams on Odysee. Tips, alerts, giveaways and more!
 ---

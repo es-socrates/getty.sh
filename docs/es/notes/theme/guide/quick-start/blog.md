@@ -8,11 +8,15 @@ tags:
   - Inicio rápido
 ---
 
-Cada ==actualización de Getty== incluirá un resumen de las últimas implementaciones y mejoras. Probablemente verá código y elementos similares a los de este ejemplo, pero intentamos mantenerle al tanto de cada cambio significativo, aunque todos los detalles estarán disponibles en nuestro blog y en GitHub. Aquí un breve ejemplo de una actualización.
+Cada ==actualización de Getty== incluirá un resumen de las últimas implementaciones y mejoras. Probablemente verá código y elementos similares a los de este ejemplo, pero intentamos mantenerle al tanto de cada cambio significativo, aunque todos los detalles estarán disponibles en nuestro blog y en GitHub.
 
-## Nuevo: Sistema de sorteos con comandos. ¡Genial!
+### Ejemplo en resumen de la última actualización de Getty
 
-Hemos implementado una nueva función de sorteos para tus transmisiones en vivo. Crea comandos personalizados con premios para sortear y deja que tu comunidad participe en vivo desde el chat. [Más detalles en Github.](https://github.com/es-socrates/getty/commit/4bdfae5de697cd399381a15f6faf455a2629e7cd)
+## ==Nuevo: Sistema de sorteos con comandos. ¡Genial!==
+
+Hemos implementado una nueva función de sorteos para tus transmisiones en vivo. Crea comandos personalizados con premios para sortear y deja que tu comunidad participe en vivo desde el chat.
+
+[Más detalles en el repositorio de Getty en github.](https://github.com/es-socrates/getty/commit/4bdfae5de697cd399381a15f6faf455a2629e7cd)
 
 ::: code-tabs
 @tab modules/chat.js

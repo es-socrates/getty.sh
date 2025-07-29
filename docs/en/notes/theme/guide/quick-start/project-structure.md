@@ -78,7 +78,7 @@ The project structure will be modified in the future, and you will have to updat
 
 :::
 
-## Styles in OBS in the chat widget
+## Styles in OBS in the chat widget (optional)
 
 The **chat widget has styles defined in css**, and although you can change colors from the admin, maybe some styles can help to visually adapt to your needs in the OBS screen, although it is not mandatory to use it. Remember, you are free to play with the style you want in Getty.
 

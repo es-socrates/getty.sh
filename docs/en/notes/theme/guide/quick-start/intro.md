@@ -12,9 +12,14 @@ tags:
 
 The vision is for streamers on Odysee to be able to have simple tools to go live on Odysee, **interact with viewers** and grow. All this easily, for **free** and without registration. Enjoy the app and look forward to more updates in the future.
 
+![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
+
 ::: details **Not familiar with Odysee?**
 
 Odysee is a [blockchain-based media platform](https://odysee.com/). We host all kinds of media such as images, articles, PDFs, audio files, etc., but we're best known for hosting videos. Odysee seeks to recapture the spirit of the early 2000s era internet. Rather than favouring corporate content such as late night talk shows, network television, and TV news, Odysee is a place for everyone, including independent creators.
+
+![odysee](https://thumbs.odycdn.com/83ee124694e97c1f109632b94fa6002f.webp)
+
 :::
 
 ## The Ultimate Tool
@@ -37,7 +42,9 @@ If you're looking for a tool to power your stream without the hassle, Getty is t
 
 :::
 
-### Total freedom:
+![getty](https://thumbs.odycdn.com/b944d452caa9337c2011960099ffa970.webp)
+
+### ==Total freedom==:
 
 - **No mandatory registrations:** use Getty instantly, without giving out personal data or creating accounts.
 - **No dependency on external servers:** Your widgets and alerts run directly on your PC or server, with no risk of crashes due to massive traffic.

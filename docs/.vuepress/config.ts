@@ -42,7 +42,7 @@ export default defineUserConfig({
         },
       },
     },
-    // hostname: 'https://your_site_url',
+    hostname: 'https://getty.sh/',
     markdown: {
       timeline: true,
     },

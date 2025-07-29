@@ -13,6 +13,7 @@ export const themeGuide: ThemeNote = defineNoteConfig({
       items: [
         { text: 'Introducción', link: '/es/guide/intro/' },
         { text: 'Instalación', link: '/es/guide/usage/' },
+        { text: 'Los widgets', link: '/es/guide/widgets/' },
         { text: 'Estructura', link: '/es/guide/project-structure/' },
         { text: 'Actualizaciones', link: '/es/guide/blog/' },
         { text: 'Licencia MIT', link: '/es/guide/license/' },

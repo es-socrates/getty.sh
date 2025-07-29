@@ -78,7 +78,7 @@ La estructura del proyecto se modificará en el futuro, por lo que deberá actua
 
 :::
 
-## Estilos en OBS en el widget de chat
+## Estilos en OBS en el widget de chat (opcional)
 
 El **widget de chat tiene estilos definidos en CSS**. Si bien puedes cambiar los colores desde el administrador, algunos estilos pueden ayudarte a adaptarlos visualmente a tus necesidades en la pantalla de OBS, aunque no es obligatorio usarlos. Recuerda que puedes experimentar con el estilo que quieras en Getty.
 

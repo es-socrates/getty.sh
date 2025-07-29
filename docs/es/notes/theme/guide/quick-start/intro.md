@@ -12,9 +12,13 @@ tags:
 
 La visión, que los streamers en Odysee puedan tener herramientas sencillas para usar en directo en Odysee, **interactuar con los espectadores** y crecer. Todo ello de forma sencilla, **gratis** y sin necesidad de registrarse. Disfruta de la aplicación y espera más actualizaciones en el futuro.
 
+![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
+
 ::: details **¿No conoces Odysee?**
 
 Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/). Alojamos todo tipo de medios, como imágenes, artículos, PDF, archivos de audio, etc., pero somos más conocidos por alojar vídeos. Odysee pretende recuperar el espíritu de la Internet de principios de los años 2000. En lugar de favorecer los contenidos corporativos, como los programas de entrevistas nocturnas, las cadenas de televisión y los telediarios, Odysee es un lugar para todos, incluidos los creadores independientes.
+
+![odysee](https://thumbs.odycdn.com/83ee124694e97c1f109632b94fa6002f.webp)
 
 :::
 
@@ -38,7 +42,9 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, Getty e
 
 :::
 
-### Libertad total:
+![getty](https://thumbs.odycdn.com/b944d452caa9337c2011960099ffa970.webp)
+
+### ==Libertad total==:
 
 - **Sin registros obligatorios:** Usa Getty al instante, sin compartir datos personales ni crear cuentas.
 - **Sin dependencia de servidores:** Tus widgets y alertas se ejecutan directamente en tu PC o servidor, sin riesgo de caídas por tráfico masivo.

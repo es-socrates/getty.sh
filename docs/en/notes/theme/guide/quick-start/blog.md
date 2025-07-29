@@ -8,11 +8,15 @@ tags:
   - Quick Start
 ---
 
-Each ==Getty update== will have a summary of the latest implementations and enhancements. You'll probably see code and stuff like in this example, but we try to let you know about every significant change, although all the details will be on our blog and github. Take a look at what an update looks like.
+Each ==Getty update== will have a summary of the latest implementations and enhancements. You'll probably see code and stuff like in this example, but we try to let you know about every significant change, although all the details will be on our blog and github.
 
-## New: Giveaway system with commands. Woohoo!
+### Here is an example of a summary of the latest Getty update.
 
-We have implemented a new giveaway feature for your livestreams. Create custom commands with prizes to raffle and let your community participate live from the chat. [More details on Github.](https://github.com/es-socrates/getty/commit/4bdfae5de697cd399381a15f6faf455a2629e7cd)
+## ==New: Giveaway system with commands. Woohoo!==
+
+We have implemented a new giveaway feature for your livestreams. Create custom commands with prizes to raffle and let your community participate live from the chat.
+
+[More details in the Getty repository on GitHub.](https://github.com/es-socrates/getty/commit/4bdfae5de697cd399381a15f6faf455a2629e7cd)
 
 ::: code-tabs
 @tab modules/chat.js

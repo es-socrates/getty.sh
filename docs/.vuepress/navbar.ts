@@ -26,7 +26,7 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
 
 export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
   {
-    text: 'Guía',
+    text: 'Docs',
     icon: 'material-symbols-light:docs-outline',
     link: '/es/guide/intro/',
     activeMatch: '^/es/guide/',
