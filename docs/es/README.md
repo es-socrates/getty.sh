@@ -17,7 +17,7 @@ config:
           link: /es/guide/intro/
         -
           theme: alt
-          text: Github →
+          text: Descargar ahora →
           link: https://github.com/es-socrates/getty
   -
     type: features

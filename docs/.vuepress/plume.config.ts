@@ -39,7 +39,7 @@ export default defineThemeConfig({
       notes: enNotes,
 
       footer: {
-        message: '<a target="_blank" href="https://github.com/es-socrates/getty">Getty</a> - This is not an official Odysee product. Made with love for Odysee ❤️',
+        message: '<a target="_blank" href="https://github.com/es-socrates/getty">Getty</a> - This is not an official Odysee product. Made with love for Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
 
@@ -61,7 +61,7 @@ export default defineThemeConfig({
       notes: esNotes,
 
       footer: {
-        message: '<a target="_blank" href="https://github.com/es-socrates/getty">Getty</a> - No es un producto oficial de Odysee. Hecho con cariño para Odysee ❤️',
+        message: '<a target="_blank" href="https://github.com/es-socrates/getty">Getty</a> - No es un producto oficial de Odysee. Hecho con cariño para Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
     },
