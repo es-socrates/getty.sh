@@ -8,7 +8,7 @@ config:
     background: tint-plate
     hero:
       name: Local App Widgets
-      tagline: for Odysee streams
+      tagline: for Odysee livestreams
       text: Free, open source and no registration!
       actions:
         -
