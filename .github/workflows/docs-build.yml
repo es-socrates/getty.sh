@@ -30,12 +30,9 @@ jobs:
       - name: List docs directory (debug)
         run: ls -l docs
 
-
-      - name: Install arweave-deploy
-        run: npm install -g arweave-deploy
-
-      - name: Calcular coste de almacenamiento en Arweave
+      - name: Instalar arweave-deploy y calcular coste de almacenamiento en Arweave
         run: |
+          npm install -g arweave-deploy
           arweave-deploy cost docs
 
 
