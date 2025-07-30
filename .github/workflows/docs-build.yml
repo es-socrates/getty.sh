@@ -42,7 +42,7 @@ jobs:
 
       - name: Deploy to Arweave
         env:
-          ARWEAVE_WALLET: ${{ secrets.ARWEAVE_WALLET }}
+          ARWEAVE_WALLET: ${{ secrets.ARWEAVE_GETTY }}
           TAG_NAME: ${{ env.TAG_NAME }}
         run: |
           echo "$ARWEAVE_WALLET" > wallet.json
