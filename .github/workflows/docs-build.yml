@@ -30,24 +30,17 @@ jobs:
       - name: List docs directory (debug)
         run: ls -l docs
 
-      - name: Instalar hw-cli
-        run: npm install hw-cli --save-dev
 
-      - name: Obtener versión y commit
-        id: version
-        run: |
-          VERSION=$(node -p "require('./package.json').version")
-          COMMIT=$(git rev-parse --short HEAD)
-          echo "TAG_NAME=v$VERSION-$COMMIT" >> $GITHUB_ENV
+      - name: Deploy to Arweave (permaweb-deploy)
+        uses: permaweb/permaweb-deploy@v2
+        with:
+          folder: docs
+          key: ${{ secrets.ARWEAVE_GETTY }}
+        id: arweave_deploy
 
-      - name: Deploy to Arweave
-        env:
-          ARWEAVE_WALLET: ${{ secrets.ARWEAVE_GETTY }}
-          TAG_NAME: ${{ env.TAG_NAME }}
+      - name: Log Arweave URL
         run: |
-          echo "$ARWEAVE_WALLET" > wallet.json
-          npx hw-cli deploy docs --key-file wallet.json --tag-name "$TAG_NAME" | tee arweave-url.txt
-          cat arweave-url.txt >> version-log.txt
+          echo "${{ steps.arweave_deploy.outputs.url }}" >> version-log.txt
 
       - name: Commit version log
         run: |
