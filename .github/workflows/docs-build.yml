@@ -31,7 +31,7 @@ jobs:
         run: ls -l docs
 
       - name: Instalar hw-cli
-        run: npm install -g hw-cli
+        run: npm install hw-cli --save-dev
 
       - name: Obtener versión y commit
         id: version
@@ -46,7 +46,7 @@ jobs:
           TAG_NAME: ${{ env.TAG_NAME }}
         run: |
           echo "$ARWEAVE_WALLET" > wallet.json
-          hw-cli deploy docs --key-file wallet.json --tag-name "$TAG_NAME" | tee arweave-url.txt
+          npx hw-cli deploy docs --key-file wallet.json --tag-name "$TAG_NAME" | tee arweave-url.txt
           cat arweave-url.txt >> version-log.txt
 
       - name: Commit version log
