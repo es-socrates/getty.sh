@@ -30,11 +30,8 @@ jobs:
       - name: List docs directory (debug)
         run: ls -l docs
 
-      - name: Instalar arweavekit y calcular coste de almacenamiento en Arweave
-        run: |
-          npm install -g @permaweb/arweavekit
-          arweavekit cost docs
-
+      - name: Instalar hw-cli
+        run: npm install -g hw-cli
 
       - name: Obtener versión y commit
         id: version
@@ -43,14 +40,13 @@ jobs:
           COMMIT=$(git rev-parse --short HEAD)
           echo "TAG_NAME=v$VERSION-$COMMIT" >> $GITHUB_ENV
 
-
       - name: Deploy to Arweave
         env:
           ARWEAVE_WALLET: ${{ secrets.ARWEAVE_WALLET }}
           TAG_NAME: ${{ env.TAG_NAME }}
         run: |
           echo "$ARWEAVE_WALLET" > wallet.json
-          arweavekit deploy docs --wallet wallet.json --tag-name "$TAG_NAME" --out arweave-url.txt
+          hw-cli deploy docs --key-file wallet.json --tag-name "$TAG_NAME" | tee arweave-url.txt
           cat arweave-url.txt >> version-log.txt
 
       - name: Commit version log
