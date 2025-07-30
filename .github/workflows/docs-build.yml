@@ -33,7 +33,8 @@ jobs:
 
 
       - name: Escribir wallet.json
-        run: echo "$DEPLOY_KEY" > wallet.json
+        run: |
+          printf "%s" "$DEPLOY_KEY" > wallet.json
         env:
           DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
 
