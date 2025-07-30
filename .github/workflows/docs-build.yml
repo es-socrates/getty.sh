@@ -35,7 +35,7 @@ jobs:
         env:
           DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
         run: |
-          npx permaweb-deploy --folder docs --key "$DEPLOY_KEY" | tee arweave-url.txt
+          npx permaweb-deploy --folder docs --ant-process static --key "$DEPLOY_KEY" | tee arweave-url.txt
           grep -Eo 'https://arweave\.net/[a-zA-Z0-9_-]+' arweave-url.txt >> version-log.txt
 
       - name: Commit version log
