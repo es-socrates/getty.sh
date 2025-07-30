@@ -15,7 +15,7 @@
     "postbuild": "cp -r docs/.vuepress/dist/* docs/ || xcopy /E /Y /I docs\\.vuepress\\dist\\* docs\\",
     "docs:preview": "http-server docs/.vuepress/dist",
     "vp-update": "npx vp-update",
-    "deploy": "permaweb-deploy --folder docs --ant-process static --key $DEPLOY_KEY"
+    "deploy": "permaweb-deploy --deploy-folder docs --ant-process static --key $DEPLOY_KEY"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
