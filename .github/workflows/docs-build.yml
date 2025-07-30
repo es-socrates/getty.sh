@@ -32,7 +32,7 @@ jobs:
 
 
       - name: Deploy to Arweave (permaweb-deploy)
-        uses: permaweb/permaweb-deploy@v2
+        uses: permaweb/permaweb-deploy@v1
         with:
           folder: docs
           key: ${{ secrets.ARWEAVE_GETTY }}
