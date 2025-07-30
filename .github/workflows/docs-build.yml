@@ -31,16 +31,12 @@ jobs:
         run: ls -l docs
 
 
-      - name: Deploy to Arweave (permaweb-deploy)
-        uses: permaweb/permaweb-deploy@v1
-        with:
-          folder: docs
-          key: ${{ secrets.ARWEAVE_GETTY }}
-        id: arweave_deploy
-
-      - name: Log Arweave URL
+      - name: Deploy to Arweave (permaweb-deploy CLI)
+        env:
+          DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
         run: |
-          echo "${{ steps.arweave_deploy.outputs.url }}" >> version-log.txt
+          npx permaweb-deploy --folder docs --key "$DEPLOY_KEY" | tee arweave-url.txt
+          grep -Eo 'https://arweave\.net/[a-zA-Z0-9_-]+' arweave-url.txt >> version-log.txt
 
       - name: Commit version log
         run: |
