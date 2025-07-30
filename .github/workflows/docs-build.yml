@@ -29,3 +29,36 @@ jobs:
 
       - name: List docs directory (debug)
         run: ls -l docs
+
+
+      - name: Install arweave-deploy
+        run: npm install -g arweave-deploy
+
+      - name: Calcular coste de almacenamiento en Arweave
+        run: |
+          arweave-deploy cost docs
+
+
+      - name: Obtener versión y commit
+        id: version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          COMMIT=$(git rev-parse --short HEAD)
+          echo "TAG_NAME=v$VERSION-$COMMIT" >> $GITHUB_ENV
+
+      - name: Deploy to Arweave
+        env:
+          ARWEAVE_WALLET: ${{ secrets.ARWEAVE_WALLET }}
+          TAG_NAME: ${{ env.TAG_NAME }}
+        run: |
+          echo "$ARWEAVE_WALLET" > wallet.json
+          arweave-deploy docs --wallet-path wallet.json --tag-name "$TAG_NAME" --out arweave-url.txt
+          cat arweave-url.txt >> version-log.txt
+
+      - name: Commit version log
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add version-log.txt
+          git commit -m "Update Arweave version log [skip ci]" || echo "No changes to commit"
+          git push
