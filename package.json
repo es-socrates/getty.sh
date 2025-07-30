@@ -14,16 +14,14 @@
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "postbuild": "cp -r docs/.vuepress/dist/* docs/ || xcopy /E /Y /I docs\\.vuepress\\dist\\* docs\\",
     "docs:preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npx vp-update",
-    "deploy": "permaweb-deploy --deploy-folder docs --ant-process static --key $DEPLOY_KEY"
+    "vp-update": "npx vp-update"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
-    "vuepress": "2.0.0-rc.24",
-    "vuepress-theme-plume": "1.0.0-rc.159",
     "http-server": "^14.1.1",
-    "vue": "^3.5.17",
     "typescript": "^5.8.3",
-    "permaweb-deploy": "^1.0.0"
+    "vue": "^3.5.17",
+    "vuepress": "2.0.0-rc.24",
+    "vuepress-theme-plume": "1.0.0-rc.159"
   }
 }

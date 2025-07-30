@@ -29,26 +29,3 @@ jobs:
 
       - name: List docs directory (debug)
         run: ls -l docs
-
-
-
-      - name: Escribir wallet.json
-        run: |
-          printf "%s" "$DEPLOY_KEY" > wallet.json
-        env:
-          DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
-
-      - name: Deploy to Arweave (permaweb-deploy CLI)
-        env:
-          DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
-        run: |
-          npx permaweb-deploy --deploy-folder docs --ant-process static --key wallet.json | tee arweave-url.txt
-          grep -Eo 'https://arweave\.net/[a-zA-Z0-9_-]+' arweave-url.txt >> version-log.txt
-
-      - name: Commit version log
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add version-log.txt
-          git commit -m "Update Arweave version log [skip ci]" || echo "No changes to commit"
-          git push
