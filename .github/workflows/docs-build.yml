@@ -38,6 +38,8 @@ jobs:
           DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
 
       - name: Deploy to Arweave (permaweb-deploy CLI)
+        env:
+          DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
         run: |
           npx permaweb-deploy --deploy-folder docs --ant-process static --key wallet.json | tee arweave-url.txt
           grep -Eo 'https://arweave\.net/[a-zA-Z0-9_-]+' arweave-url.txt >> version-log.txt
