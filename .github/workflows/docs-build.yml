@@ -31,11 +31,15 @@ jobs:
         run: ls -l docs
 
 
-      - name: Deploy to Arweave (permaweb-deploy CLI)
+
+      - name: Escribir wallet.json
+        run: echo "$DEPLOY_KEY" > wallet.json
         env:
           DEPLOY_KEY: ${{ secrets.ARWEAVE_GETTY }}
+
+      - name: Deploy to Arweave (permaweb-deploy CLI)
         run: |
-          npx permaweb-deploy --deploy-folder docs --ant-process static --key "$DEPLOY_KEY" | tee arweave-url.txt
+          npx permaweb-deploy --deploy-folder docs --ant-process static --key wallet.json | tee arweave-url.txt
           grep -Eo 'https://arweave\.net/[a-zA-Z0-9_-]+' arweave-url.txt >> version-log.txt
 
       - name: Commit version log
