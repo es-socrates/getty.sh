@@ -4,5 +4,8 @@ docs/.vuepress/.cache
 docs/.vuepress/.temp
 docs/.vuepress/dist
 
+# Final deployment folder with relative paths
+dist
+
 .DS_Store
 *.log
