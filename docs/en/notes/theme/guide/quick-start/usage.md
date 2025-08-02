@@ -64,19 +64,7 @@ npm install
 
 This will install everything necessary for Getty to work
 
-3. **Configure the .env file**
-
-Rename the .env.example file to .env. Edit it and replace the three (3) xxx with your Arweave (AR) wallet address in Odysee. The other three (3) xxx with the ClaimID of your Odysee live stream.
-
-```sh
-WALLET_ADDRESS=xxx
-GOAL_AR=10
-STARTING_AR=0
-ODYSEE_WS_URL=wss://sockety.odysee.tv/ws/commentron?id=xxx
-PORT=3000
-```
-
-4. **Build and run Getty**
+3. **Build and run Getty**
 
 Build the application with this command:
 
@@ -89,7 +77,7 @@ Start the application with this command:
 npm start
 ```
 
-5. **Done! Access Getty in your browser**
+4. **Done! Access Getty in your browser**
 
 Open your browser and go to the following address to view the Getty ==homepage==.
 
@@ -103,7 +91,7 @@ To enter the ==administrator== you must go to the following address or from the 
 http://localhost:3000/admin.html
 ```
 
-⚡ Configure your widgets (tip alerts, chat, goals, etc.) and add them to OBS.
+⚡ Configure your widgets (tip alerts, chat, goals, etc.) and add them to OBS. You must configure the wallet address and channel data in admin.
 
 ::::
 

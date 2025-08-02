@@ -32,6 +32,12 @@ Elige entre un chat de Odysee vertical u horizontal para adaptarlo al diseño de
 
 ==¡Mantén la interacción sin límites!==
 
+## Espectadores en vivo 👀
+
+El widget de espectadores en vivo es una herramienta esencial para los ==streamers de Odysee==, permite mostrar en tiempo real la cantidad de espectadores conectados al stream. Este elemento no solo ayuda a interactuar con la audiencia, agradeciendo su presencia o motivando la participación cuando los números suben, sino que también sirve como métrica instantánea para ajustar el contenido según la reacción del público.
+
+Muchos creadores lo integran en sus overlays para mantener un feedback constante, generando engagement y adaptando su transmisión en función de la audiencia activa. Además, puede ser un indicador clave para detectar picos de interés o momentos clave del directo, optimizando así la estrategia de streaming.
+
 ## Sorteos por comando 🎉
 
 Crea sorteos emocionantes directamente desde el chat con este widget interactivo. Los participantes pueden unirse usando comandos, y todo se gestiona de forma transparente y descentralizada. Personaliza mensajes, colores y premios para hacerlo más atractivo. Al no depender de terceros, aseguras imparcialidad y mayor confianza en tus dinámicas.

@@ -32,6 +32,12 @@ Choose between a vertical or horizontal Odysee chat to adapt to your stream's la
 
 ==Keep engagement unlimited!==
 
+## Livestream Viewers 👀
+
+The Livestream Viewers widget is an essential tool for ==Odysee streamers==, allowing them to display the number of viewers connected to their stream in real time. This widget not only helps engage with their audience, thanking them for their presence or encouraging participation when the number increases, but also serves as an instant metric for adjusting content based on audience reaction.
+
+Many creators integrate it into their overlays to maintain constant feedback, generating engagement and adapting their streams based on their active audience. It can also be a key indicator for detecting peaks in interest or key moments during the live stream, thus optimizing their streaming strategy.
+
 ## Command-Based Giveaway System 🎉 
 
 Create exciting giveaways directly from the chat with this interactive widget. Participants can join using commands, and everything is managed transparently and decentrally. Customize messages, colors, and prizes to make it more attractive. By not relying on third parties, you ensure impartiality and greater trust in your dynamics.
