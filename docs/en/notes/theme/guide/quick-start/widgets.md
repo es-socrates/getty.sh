@@ -48,6 +48,12 @@ Giveaways in the chat or livestream are 100% managed by the channel owner and no
 
 :::
 
+## Social Media Widget 📱
+
+The social media widget is an essential tool for Odysee streamers who want to maintain a constant connection with their audience beyond their streams. These overlays allow streamers to customize and display links to the streamer's social media accounts on OBS, such as Discord, Telegram, X, and other platforms, directly within their live stream.
+
+Streamers can configure the social media widget from Getty in the admin, customizing usernames, icons, and links. This not only makes it easier for viewers to follow the streamer on different platforms, but also improves interaction and engagement during the stream.
+
 ## Advantages of Decentralization 🚀
 
 These widgets are powered by decentralized backend technology ==(Arweave and Odysee)==, resulting in greater security, privacy, and availability. Without centralized servers that can crash or be censored, you and your community enjoy a more free and reliable experience. Plus, advanced customization allows you to maintain a consistent brand identity across all your streams.

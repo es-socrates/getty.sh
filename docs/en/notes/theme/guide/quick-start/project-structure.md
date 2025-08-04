@@ -17,6 +17,7 @@ permalink: /en/guide/project-structure/
     - language-config.js
     - last-tip.js
     - raffle.js
+    - socialmedia.js
     - tip-goal.js
     - tip-widget.js
   - public
@@ -27,46 +28,57 @@ permalink: /en/guide/project-structure/
       - odysee.png
     - css
       - admin.css
+      - liveviews.css
       - styles.css
       - theme.css
     - js
+      - min
+        - .gitkeep
       - admin.js
       - app.js
       - chat.js
+      - giveaway.js
       - languages.js
       - last-tip.js
+      - liveviews.js
       - persistent-notifications.js
       - raffle-admin.js
+      - socialmedia.js
       - tip-goal.js
       - tip-widget.js
     - widgets
       - chat.css
       - chat.html
+      - giveaway.css
+      - giveaway.html
       - last-tip.css
       - last-tip.html
+      - liveviews.css
+      - liveviews.html
       - obs-config.js
       - persistent-notifications.css
       - persistent-notifications.html
       - raffle.css
       - raffle.html
+      - socialmedia.css
+      - socialmedia.html
       - tip-goal.css
       - tip-goal.html
       - tip-notification.css
       - tip-notification.html
-  - admin.html
   - emojis.json
-  - index.html
   - src
+    - admin.html
+    - index.html
     - input.css
-- .env.example
 - .gitignore
 - .stylelintrc
 - INTERNATIONALIZATION.md
 - LICENSE
-- README.md
 - package-lock.json
 - package.json
 - postcss.config.js
+- README.md
 - server.js
 - tailwind.config.js
 - tts-settings.json
