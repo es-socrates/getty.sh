@@ -11,6 +11,9 @@ permalink: /es/guide/project-structure/
 
 - .git/
 - **getty**
+  - config
+  - docs
+    - ROUTES.md
   - modules
     - chat.js
     - external-notifications.js
@@ -22,6 +25,17 @@ permalink: /es/guide/project-structure/
     - tip-widget.js
   - public
     - assets
+      - icons
+        - beer.png
+        - cool.png
+        - crown.png
+        - cry.png
+        - hamburguer.png
+        - heart.png
+        - laugh.png
+        - serious.png
+        - star.png
+        - tongue.png
       - getty-fav.png
       - getty.png
       - gettydark.png
@@ -46,6 +60,7 @@ permalink: /es/guide/project-structure/
       - socialmedia.js
       - tip-goal.js
       - tip-widget.js
+    - uploads
     - widgets
       - chat.css
       - chat.html
@@ -67,10 +82,31 @@ permalink: /es/guide/project-structure/
       - tip-notification.css
       - tip-notification.html
   - emojis.json
+  - routes
+    - audio-settings.js
+    - chat.js
+    - external-notifications.js
+    - goal-audio.js
+    - language.js
+    - last-tip.js
+    - liveviews.js
+    - obs.js
+    - raffle.js
+    - socialmedia.js
+    - tip-goal.js
+    - tts.js
   - src
     - admin.html
     - index.html
     - input.css
+  - test
+    - api-language-raffle.test.js
+    - api-more.test.js
+    - api-raffle-validation.test.js
+    - api-socialmedia-validation.test.js
+    - api-tip-goal-validation.test.js
+    - server.test.js
+- .env.example
 - .gitignore
 - .stylelintrc
 - INTERNATIONALIZATION.md
@@ -89,62 +125,3 @@ permalink: /es/guide/project-structure/
 La estructura del proyecto se modificará en el futuro, por lo que deberá actualizar el repositorio o descargarlo (carpeta) de nuevo. Si realiza alguna modificación, compruebe qué archivo necesita copia de seguridad.
 
 :::
-
-## Estilos en OBS en el widget de chat (opcional)
-
-El **widget de chat tiene estilos definidos en CSS**. Si bien puedes cambiar los colores desde el administrador, algunos estilos pueden ayudarte a adaptarlos visualmente a tus necesidades en la pantalla de OBS, aunque no es obligatorio usarlos. Recuerda que puedes experimentar con el estilo que quieras en Getty.
-
-Este estilo va dentro de la fuente en OBS, en la personalización de CSS.
-
-```css title="chat.html"
-  body { 
-  background-color: rgba(0,0,0,0) !important; 
-  overflow: hidden !important;
-}
-
-.message-text-inline {
-    font-size: 22px;
-}
-
-.message-username.cyberpunk {
-    font-size: 22px;
-}
-
-.message-avatar {
-    width: 38px;
-    height: 36px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #21262d;
-}
-
-.message-avatar img {
-    width: 38px;
-    height: 38px;
-    object-fit: cover;
-}
-
-.comment-emoji,
-.message-content .comment-emoji {
-    vertical-align: middle;
-    position: relative;
-    top: -2px;
-    margin: 10px 2px;
-    max-width: 24px;
-}
-
-.message.has-donation .message-username {
-    font-size: 22px;
-}
-
-.message.has-donation .message-text-inline {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: var(--odysee-font-family);
-    white-space: normal;
-}
-
-.message-donation {
-    font-size: 18px;
-}
-```
