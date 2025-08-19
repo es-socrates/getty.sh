@@ -1,7 +1,7 @@
 {
   "name": "getty",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Widget app for tip notifications, tip goals, chat rewards and display real-time alerts for your livestreams in Odysee.",
   "author": "Sócrates",
   "license": "MIT",
