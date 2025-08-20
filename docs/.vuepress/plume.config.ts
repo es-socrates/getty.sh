@@ -30,7 +30,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'Getty',
-        description: 'Widget app for tip notifications, tip goals, chat rewards and display real-time alerts for your livestreams in Odysee.',
+        description: 'Complete and customizable app with tools for live streaming. Tip notifications, tip goals, chat widget, and real-time alerts for your live streams on Odysee.',
         // circle: true,
         // location: '',
         // organization: '',
@@ -55,7 +55,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'Getty',
-        description: 'Aplicación de widget para notificaciones de propinas, objetivos de propinas, recompensas de chat y visualización de alertas en tiempo real para tus directos en Odysee.',
+        description: 'Aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, objetivos de propinas, widget de chat y alertas en tiempo real para tus transmisiones en vivo en Odysee.',
       },
 
       navbar: esNavbar,

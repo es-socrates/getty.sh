@@ -4,8 +4,8 @@ permalink: /es/guide/
 createTime: 2025/07/28 15:28:05
 ---
 
-# Welcome to Getty Documentation
+# Bienvenido a la documentación de Getty
 
-Widget app for tip notifications, tip goals, chat rewards and display real-time alerts for your livestreams in Odysee. Free, open source and no registration!
+Aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, objetivos de propinas, widget de chat y alertas en tiempo real para tus transmisiones en vivo en Odysee. ¡Gratis, de código abierto y sin necesidad de registrarse!
 
-Explore the documentation to learn more about Getty.
+Explora la documentación para obtener más información sobre Getty.
