@@ -8,9 +8,9 @@ tags:
   - Quick Start
 ---
 
-==Getty== is a widget app for tip notifications, **tip goals**, chat rewards and display **real-time alerts** for your livestreams in **Odysee**. 
+==Getty== is a complete and customizable app tools for live streaming. Tip notifications, **tip goals**, chat widget, and **real-time alerts** for your live streams on **Odysee**.
 
-The vision is for streamers on Odysee to be able to have simple tools to go live on Odysee, **interact with viewers** and grow. All this easily, for **free** and without registration. Enjoy the app and look forward to more updates in the future.
+Now, the streamers on Odysee to be able to have simple tools to go live on Odysee, **interact with viewers** and grow. All this easily, for **free** and without registration. Enjoy the app and look forward to more updates in the future.
 
 ![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
 
@@ -42,7 +42,7 @@ If you're looking for a tool to power your stream without the hassle, Getty is t
 
 :::
 
-![getty](https://thumbs.odycdn.com/b944d452caa9337c2011960099ffa970.webp)
+![getty](https://thumbs.odycdn.com/2c824f75e3a53242508da449d7b7a558.webp)
 
 ### ==Total freedom==:
 

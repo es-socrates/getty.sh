@@ -54,6 +54,10 @@ El widget de redes sociales es una herramientas esencial para los streamers en O
 
 Los streamers pueden configurar el widget de redes sociales desde Getty en el admin, personalizando nombres de usuario, iconos y enlaces. Esto no solo facilita a los espectadores seguir al streamer en diferentes plataformas, sino que también mejora la interacción y el engagement durante la transmisión.
 
+## Anuncios en tiempo real 📣
+
+Un widget dinámico que permite mostrar anuncios totalmente personalizables durante tus transmisiones en vivo. Desde el panel de administración, los usuarios pueden diseñar y programar carteles a medida, -cambiando el texto, imágenes, colores y tiempos de aparición- para adaptarlos al estilo y la audiencia de cada stream. El widget se sincroniza automáticamente con la app, actualizando los contenidos en tiempo real sin necesidad de reiniciar la emisión, lo que garantiza una experiencia visual fluida y profesional mientras promocionas productos, eventos o mensajes clave al instante.
+
 ## Ventajas de la descentralización 🚀
 
 Estos widgets funcionan con tecnología backend descentralizada ==(Arweave y Odysee)==, lo que se traduce en mayor seguridad, privacidad y disponibilidad. Sin servidores centralizados que puedan fallar o ser censurados, tú y tu comunidad disfrutan de una experiencia más libre y confiable. Además, la personalización avanzada te permite mantener una identidad de marca coherente en todas tus transmisiones.

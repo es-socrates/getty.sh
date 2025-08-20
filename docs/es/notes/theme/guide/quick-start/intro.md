@@ -8,9 +8,9 @@ tags:
   - Inicio rápido
 ---
 
-==Getty== es una aplicación de widget para notificaciones de propinas, **metas de propinas**, recompensas de chat y **alertas en tiempo real** para tus retransmisiones en directo en **Odysee**.
+==Getty==, una aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, **metas de propinas**, recompensas de chat y **alertas en tiempo real** para tus retransmisiones en vivo en **Odysee**.
 
-La visión, que los streamers en Odysee puedan tener herramientas sencillas para usar en directo en Odysee, **interactuar con los espectadores** y crecer. Todo ello de forma sencilla, **gratis** y sin necesidad de registrarse. Disfruta de la aplicación y espera más actualizaciones en el futuro.
+Ahora, los streamers en Odysee tienen herramientas sencillas para usar en vivo en Odysee, **interactuar con los espectadores** y crecer. Todo ello de forma sencilla, **gratis** y sin necesidad de registrarse. Disfruta de la aplicación y espera más actualizaciones en el futuro.
 
 ![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
 
@@ -42,7 +42,7 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, Getty e
 
 :::
 
-![getty](https://thumbs.odycdn.com/b944d452caa9337c2011960099ffa970.webp)
+![getty](https://thumbs.odycdn.com/2c824f75e3a53242508da449d7b7a558.webp)
 
 ### ==Libertad total==:
 

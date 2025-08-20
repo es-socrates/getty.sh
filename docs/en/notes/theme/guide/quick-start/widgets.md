@@ -54,6 +54,10 @@ The social media widget is an essential tool for Odysee streamers who want to ma
 
 Streamers can configure the social media widget from Getty in the admin, customizing usernames, icons, and links. This not only makes it easier for viewers to follow the streamer on different platforms, but also improves interaction and engagement during the stream.
 
+## Real-time announcements
+
+A dynamic widget that allows you to display fully customizable announcements during your live streams. From the admin panel, users can design and schedule custom banners—changing the text, images, colors, and display times—to suit the style and audience of each stream. The widget automatically syncs with the app, updating content in real time without the need to restart the broadcast, ensuring a smooth and professional visual experience while instantly promoting products, events, or key messages.
+
 ## Advantages of Decentralization 🚀
 
 These widgets are powered by decentralized backend technology ==(Arweave and Odysee)==, resulting in greater security, privacy, and availability. Without centralized servers that can crash or be censored, you and your community enjoy a more free and reliable experience. Plus, advanced customization allows you to maintain a consistent brand identity across all your streams.
