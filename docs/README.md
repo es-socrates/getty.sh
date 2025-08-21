@@ -7,7 +7,7 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Local App Widgets
+      name: Complete app with tools
       tagline: for Odysee livestreams
       text: Free, open source and no registration!
       actions:

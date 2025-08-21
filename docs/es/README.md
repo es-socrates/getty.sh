@@ -7,7 +7,7 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Aplicación de widgets
+      name: Una aplicación completa
       tagline: para directos en Odysee
       text: Gratis, de código abierto y sin registro.
       actions:

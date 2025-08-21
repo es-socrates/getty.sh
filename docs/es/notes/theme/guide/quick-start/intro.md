@@ -42,7 +42,7 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, Getty e
 
 :::
 
-![getty](https://thumbs.odycdn.com/2c824f75e3a53242508da449d7b7a558.webp)
+![getty](https://thumbs.odycdn.com/94b99e2c1f700d121aa10a7e97e7cdd3.webp)
 
 ### ==Libertad total==:
 
