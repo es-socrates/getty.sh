@@ -21,7 +21,7 @@ export default defineUserConfig({
   },
 
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '.vuepress/public/getty-fav.png' }],
+  ['link', { rel: 'icon', type: 'image/png', href: '/getty-fav.png' }],
   ],
 
   bundler: viteBundler(),
