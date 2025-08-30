@@ -1,5 +1,5 @@
 ---
-title: Welcome to Getty
+title: Welcome to getty
 icon: mdi:tooltip-text-outline
 createTime: 2025/07/28 9:00
 permalink: /en/guide/intro/
@@ -12,7 +12,7 @@ tags:
 
 Now, the streamers on Odysee to be able to have simple tools to go live on Odysee, **interact with viewers** and grow. All this easily, for **free** and without registration. Enjoy the app and look forward to more updates in the future.
 
-![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
+![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
 ::: details **Not familiar with Odysee?**
 
@@ -24,11 +24,11 @@ Odysee is a [blockchain-based media platform](https://odysee.com/). We host all 
 
 ## The Ultimate Tool
 
-Want to take your stream to the next level? With Getty, managing your widgets in OBS has never been so easy and customizable. Here are some of its amazing features: ==independent widgets.==
+Want to take your stream to the next level? With getty, managing your widgets in OBS has never been so easy and customizable. Here are some of its amazing features: ==independent widgets.==
 
 ### More Features
 
-- ⚡ Easy Setup: Run Getty with ==a single command==, either on your PC or server.
+- ⚡ Easy Setup: Run getty with ==a single command==, either on your PC or server.
 - 🔔 Real-Time Notifications: Get alerts for your AR token tips, chat messages, ==donation goals== and the latest tip instantly.
 - 🎨 Unlimited Customization: Change colors, fonts, styles, titles and more to fit your style.
 - 🔄 Standalone Widgets: Activate only the ones you need, either 1, 2 or all.
@@ -38,15 +38,15 @@ Want to take your stream to the next level? With Getty, managing your widgets in
 
 ::: tip
 
-If you're looking for a tool to power your stream without the hassle, Getty is the ultimate solution. Why? Getty is free, without user registrations and decentralized. The best experience for content creators.
+If you're looking for a tool to power your stream without the hassle, getty is the ultimate solution. Why? getty is free, without user registrations and decentralized. The best experience for content creators.
 
 :::
 
-![getty](https://thumbs.odycdn.com/94b99e2c1f700d121aa10a7e97e7cdd3.webp)
+![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
 ### ==Total freedom==:
 
-- **No mandatory registrations:** use Getty instantly, without giving out personal data or creating accounts.
+- **No mandatory registrations:** use getty instantly, without giving out personal data or creating accounts.
 - **No dependency on external servers:** Your widgets and alerts run directly on your PC or server, with no risk of crashes due to massive traffic.
 - **You are in control:** No middlemen, no restrictions due to platforms policy changes.
 
@@ -58,7 +58,7 @@ If you're looking for a tool to power your stream without the hassle, Getty is t
 ### Privacy guaranteed:
 
 - **Your data is only yours:** We don't sell information, no hidden tracking.
-- **Works in any environment:** Windows, Linux, Mac. Getty adapts without blocking features by "official support".
+- **Works in any environment:** Windows, Linux, Mac. getty adapts without blocking features by "official support".
 
 ### Unlimited customization:
 

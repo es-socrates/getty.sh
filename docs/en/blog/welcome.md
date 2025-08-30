@@ -1,9 +1,9 @@
 ---
-title: Welcome to Getty
+title: Welcome to getty
 date: 2025-07-27T00:00:00.000Z
 permalink: /en/blog/welcome/
 createTime: 2025/07/28 9:00
-cover: https://thumbs.odycdn.com/bcf02db54965ad5e275e816d88b9a5d5.webp
+cover: https://thumbs.odycdn.com/5958046287b06ad60e7e090786090abf.webp
 coverStyle:
   layout: left
   width: 200
@@ -18,16 +18,16 @@ From interactive monetization alerts to custom widgets, everything is designed t
 
 ::: important
 
-Decentralized monetization is unique for creators and streamers on Odysee. With tools like tip alerts and giveaways with Getty, streamers can easily increase their audience engagement and revenue growth.
+Decentralized monetization is unique for creators and streamers on Odysee. With tools like tip alerts and giveaways with getty, streamers can easily increase their audience engagement and revenue growth.
 
 :::
 
 Real-time tip alerts with AR tokens (arweave), tip goals, and personalized chat offer multiple ways to connect more deeply with their community. These features are essential for those looking to turn their passion for streaming into a more sustainable career.
 
-In addition to its main products, Getty has innovated with direct solutions. This tool is ideal for streamers seeking ==flexibility== or wanting to complement their broadcasts with extra content. The incorporation of overlays demonstrates Getty's commitment to accessibility and creativity.
+In addition to its main products, getty has innovated with direct solutions. This tool is ideal for streamers seeking ==flexibility== or wanting to complement their broadcasts with extra content. The incorporation of overlays demonstrates getty's commitment to accessibility and creativity.
 
-In a constantly evolving market, Getty will be a benchmark thanks to its adaptability and user focus. Whether for beginners or professionals, its products offer the perfect balance between ==functionality== and ease of use. For streamers looking to elevate their content, mastering Getty's tools is not an option, but a necessity on the road to success.
+In a constantly evolving market, getty will be a benchmark thanks to its adaptability and user focus. Whether for beginners or professionals, its products offer the perfect balance between ==functionality== and ease of use. For streamers looking to elevate their content, mastering getty's tools is not an option, but a necessity on the road to success.
 
 Getty will continue to develop more tools and features for streamers on Odysee.
 
-The Getty Team
+### **λ**

@@ -13,6 +13,11 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
     icon: 'material-symbols-light:inbox-text-outline-rounded',
   },
   {
+    text: 'App',
+    icon: 'qlementine-icons:executable-16',
+    link: 'https://app.getty.sh/',
+  },
+  {
     text: `${version}`,
     icon: 'codicon:versions',
     link: 'https://github.com/es-socrates/getty/releases'
@@ -33,6 +38,11 @@ export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
   },
   { text: 'Blog', link: '/es/blog/',
     icon: 'material-symbols-light:inbox-text-outline-rounded',
+  },
+  {
+    text: 'App',
+    icon: 'qlementine-icons:executable-16',
+    link: 'https://app.getty.sh/',
   },
   {
     text: `${version}`,

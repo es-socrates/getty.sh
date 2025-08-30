@@ -1,16 +1,16 @@
 ---
-title: Getty updated v1.0.4
-date: 2025-08-03T00:00:00.000Z
+title: getty v1.0.4
+date: 2025-08-07T00:00:00.000Z
 permalink: /en/blog/update.1.0.4/
 createTime: 2025/08/07 19:00
-cover: https://thumbs.odycdn.com/24caacb3bc16b8c6b1932b275978ee12.webp
+cover: https://thumbs.odycdn.com/686eb607469eb4888c226755cadce96d.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Version 1.0.4:== New Feature: Custom Theme Editing in Chat.
+## ==λ v1.0.4:== New Feature: Custom Theme Editing in Chat.
 
 Hello everyone! We're excited to announce the release of the latest version of Getty, version 1.0.4. This update brings several improvements and new features that enhance the user experience. Let's dive into what's changed:
 
@@ -91,4 +91,4 @@ Our administration interface has been improved to offer a simple and intuitive c
 
 If you have any questions or need further assistance, feel free to reach out. Thank you for choosing Getty!
 
-The Getty Team
+### **λ**

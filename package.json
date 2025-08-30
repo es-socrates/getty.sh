@@ -1,7 +1,7 @@
 {
   "name": "getty",
   "type": "module",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Complete and customizable app with tools for live streaming. Tip notifications, tip goals, chat widget, and real-time alerts for your live streams on Odysee.",
   "author": "Sócrates",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "http-server": "^14.1.1",
     "typescript": "^5.8.3",
-    "vue": "^3.5.17",
+    "vue": "^3.5.20",
     "vuepress": "2.0.0-rc.24",
-    "vuepress-theme-plume": "1.0.0-rc.159"
+    "vuepress-theme-plume": "1.0.0-rc.161"
   }
 }

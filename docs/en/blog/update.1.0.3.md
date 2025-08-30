@@ -1,16 +1,16 @@
 ---
-title: Getty updated v1.0.3
+title: getty v1.0.3
 date: 2025-08-03T00:00:00.000Z
 permalink: /en/blog/update.1.0.3/
 createTime: 2025/08/03 22:10
-cover: https://thumbs.odycdn.com/9a68f220da60ce2930f8dbb60eb1e284.webp
+cover: https://thumbs.odycdn.com/1b3ec3165cbbd2b7d5fdb2f0f0ebc6c4.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Version 1.0.3:== New! Social Widget, Optimization, and More.
+## ==λ v1.0.3:== New! Social Widget, Optimization, and More.
 
 In this update, we've implemented significant functionality, code optimization, and user experience improvements. Below are all the changes:
 
@@ -54,4 +54,4 @@ This version consolidates all the aforementioned improvements and lays a stronge
 
 **Have you tried the new features yet? Tell us about your experience!**
 
-The Getty Team
+### **λ**

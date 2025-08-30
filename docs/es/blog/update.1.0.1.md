@@ -1,16 +1,16 @@
 ---
-title: Getty actualizado v1.0.1
-date: 2025-07-27T00:00:00.000Z
+title: getty v1.0.1
+date: 2025-07-31T00:00:00.000Z
 permalink: /es/blog/update.1.0.1/
 createTime: 2025/07/31 9:30
-cover: https://thumbs.odycdn.com/10061ee1d09267c8565140a0a982af80.webp
+cover: https://thumbs.odycdn.com/9eecb030bafc2f095369d44c1f378386.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Versión 1.0.1:== Refactorización de widgets y mejoras importantes
+## ==λ v1.0.1:== Refactorización de widgets y mejoras importantes
 
 ¡Hola a todos! Estamos emocionados de presentarles la versión 1.0.1, que trae consigo una serie de mejoras significativas en los widgets, correcciones de internacionalización (i18n), optimizaciones en la visualización de premios y más. A continuación, detallamos todos los cambios:
 
@@ -57,6 +57,6 @@ Esta actualización representa un paso importante para una versión más estable
 
 :::
 
-**¡Gracias por el apoyo y a disfrutar de la versión 1.0.1 de Getty!**
+**¡Gracias por el apoyo y a disfrutar de la versión 1.0.1 de getty!**
 
-El equipo de Getty
+### **λ**

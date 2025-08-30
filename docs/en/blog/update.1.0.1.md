@@ -1,16 +1,16 @@
 ---
-title: Getty updated v1.0.1
-date: 2025-07-27T00:00:00.000Z
+title: getty v1.0.1
+date: 2025-07-31T00:00:00.000Z
 permalink: /en/blog/update.1.0.1/
 createTime: 2025/07/31 9:30
-cover: https://thumbs.odycdn.com/10061ee1d09267c8565140a0a982af80.webp
+cover: https://thumbs.odycdn.com/9eecb030bafc2f095369d44c1f378386.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Version 1.0.1:== Widget Refactoring and Major Improvements
+## ==λ v1.0.1:== Widget Refactoring and Major Improvements
 
 Hello everyone! We are excited to present version 1.0.1, which brings a series of significant improvements to widgets, internationalization (i18n) fixes, prize display optimizations, and more. Below, we detail all the changes:
 
@@ -59,4 +59,4 @@ This update represents an important step towards a more stable, maintainable, an
 
 Thank you for your support and enjoy Getty version 1.0.1!
 
-The Getty Team
+### **λ**

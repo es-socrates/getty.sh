@@ -44,7 +44,7 @@ Crea sorteos emocionantes directamente desde el chat con este widget interactivo
 
 ::: warning
 
-Los sorteos del livestream son 100% gestionados por el porpietario del canal y no por Getty, ni tampoco Odysee.
+Los sorteos del livestream son 100% gestionados por el porpietario del canal y no por getty, ni tampoco Odysee.
 
 :::
 
@@ -52,7 +52,7 @@ Los sorteos del livestream son 100% gestionados por el porpietario del canal y n
 
 El widget de redes sociales es una herramientas esencial para los streamers en Odysee que desean mantener una conexión constante con su audiencia más allá del streaming. Estos overlays permiten personalizar y mostrar enlaces a las redes sociales del streamer en OBS, como Discord, Telegram, X y otras plataformas, directamente en su transmisión en vivo.
 
-Los streamers pueden configurar el widget de redes sociales desde Getty en el admin, personalizando nombres de usuario, iconos y enlaces. Esto no solo facilita a los espectadores seguir al streamer en diferentes plataformas, sino que también mejora la interacción y el engagement durante la transmisión.
+Los streamers pueden configurar el widget de redes sociales desde getty en el admin, personalizando nombres de usuario, iconos y enlaces. Esto no solo facilita a los espectadores seguir al streamer en diferentes plataformas, sino que también mejora la interacción y el engagement durante la transmisión.
 
 ## Anuncios en tiempo real 📣
 

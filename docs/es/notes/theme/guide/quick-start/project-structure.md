@@ -11,10 +11,72 @@ permalink: /es/guide/project-structure/
 
 - .git/
 - **getty**
-  - config
-  - docs
+  - admin-frontend/
+    - src
+      - components
+        - os
+          - OsCard.vue
+          - OsKpi.vue
+          - OsSidebarLink.vue
+          - OsSparkline.vue
+          - OsTable.vue
+        - shared
+          - ColorInput.vue
+          - CopyField.vue
+          - ToastHost.vue
+        - ActivityPanel.vue
+        - AnnouncementPanel.vue
+        - ChatPanel.vue
+        - ChatThemeManager.vue
+        - ExternalNotificationsPanel.vue
+        - LastTipPanel.vue
+        - LiveviewsPanel.vue
+        - MetricsPanel.vue
+        - NotificationsPanel.vue
+        - RafflePanel.vue
+        - SocialMediaPanel.vue
+        - StreamHistoryPanel.vue
+        - TipGoalPanel.vue
+    - composables
+      - useDirtyRegistry.js
+      - usePublicToken.js
+      - useValidation.js
+    - i18n
+      - index.js
+    - router
+      - index.js
+    - services
+      - api.js
+      - toast.js
+    - styles
+      - admin-tailwind.css
+      - theme-vars.css
+      - util.css
+    - utils
+      - validation.js
+    - views
+      - AnnouncementView.vue
+      - ChatView.vue
+      - ExternalNotificationsView.vue
+      - LastTipView.vue
+      - LiveviewsView.vue
+      - NotificationsView.vue
+      - RaffleView.vue
+      - SocialMediaView.vue
+      - StatusView.vue
+      - TipGoalView.vue
+    - App.vue
+    - main.js
+    - index.html
+    - vite.config.js
+  - docs/
     - ROUTES.md
-  - modules
+  - lib/
+    - store.js
+  - modules/
+    - announcement.js
+    - chat-manager.js
+    - chat-ns.js
     - chat.js
     - external-notifications.js
     - language-config.js
@@ -23,7 +85,7 @@ permalink: /es/guide/project-structure/
     - socialmedia.js
     - tip-goal.js
     - tip-widget.js
-  - public
+  - public/
     - assets
       - icons
         - beer.png
@@ -41,27 +103,33 @@ permalink: /es/guide/project-structure/
       - gettydark.png
       - odysee.png
     - css
-      - admin.css
       - liveviews.css
       - styles.css
       - theme.css
+      - welcome.css
     - js
       - min
         - .gitkeep
       - admin.js
+      - announcement-admin.js
+      - announcement.js
       - app.js
       - chat.js
       - giveaway.js
-      - languages.js
+      - index-ui.js
       - last-tip.js
       - liveviews.js
       - persistent-notifications.js
       - raffle-admin.js
+      - raffle.js
       - socialmedia.js
       - tip-goal.js
       - tip-widget.js
+      - welcome.js
     - uploads
     - widgets
+      - announcement.css
+      - announcement.html
       - chat.css
       - chat.html
       - giveaway.css
@@ -82,7 +150,11 @@ permalink: /es/guide/project-structure/
       - tip-notification.css
       - tip-notification.html
   - emojis.json
-  - routes
+  - favicon.ico
+  - welcome.html
+  - routes/
+    - announcement.js
+    - audio-settings.js
     - audio-settings.js
     - chat.js
     - external-notifications.js
@@ -93,28 +165,57 @@ permalink: /es/guide/project-structure/
     - obs.js
     - raffle.js
     - socialmedia.js
+    - stream-history.js
     - tip-goal.js
+    - tip-notification-gif.js
     - tts.js
-  - src
-    - admin.html
+  - scripts/
+    - build-i18n.js
+    - hosted-verify.js
+    - unused-css-report.js
+  - shared-i18n/
+    - en.json
+    - es.json
+  - src/
     - index.html
     - input.css
-  - test
+    - theme-tokens.css
+  - test/
+    - announcement.test.js
+    - api-chat-theme.test.js
+    - api-hosted-401.test.js
+    - api-hosted-happy.test.js
+    - api-hosted-masking-wallet.test.js
+    - api-hosted-masking.test.js
     - api-language-raffle.test.js
+    - api-masking-secrets.test.js
     - api-more.test.js
+    - api-notifications-masking.test.js
+    - api-raffle-isolation.test.js
     - api-raffle-validation.test.js
+    - api-require-session-flag.test.js
     - api-socialmedia-validation.test.js
+    - api-tip-goal-persist.test.js
     - api-tip-goal-validation.test.js
+    - api-tip-notification-gif.test.js
+    - api-wallet-arweave-validation.test.js
+    - api-wallet-clear.test.js
     - server.test.js
+    - ws-raffle-winner-isolation.test.js
+    - ws-tip-notification.test.js
 - .env.example
+- .eslintignore
+- .eslintrc.cjs
 - .gitignore
 - .stylelintrc
 - INTERNATIONALIZATION.md
 - LICENSE
+- README.md
+- eslint.config.cjs
+- nodemon.json
 - package-lock.json
 - package.json
-- postcss.config.js
-- README.md
+- postcss.config.cjs
 - server.js
 - tailwind.config.js
 - tts-settings.json

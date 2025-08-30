@@ -1,16 +1,16 @@
 ---
-title: Getty actualizado v1.0.3
+title: getty v1.0.3
 date: 2025-08-03T00:00:00.000Z
 permalink: /es/blog/update.1.0.3/
 createTime: 2025/08/03 22:10
-cover: https://thumbs.odycdn.com/9a68f220da60ce2930f8dbb60eb1e284.webp
+cover: https://thumbs.odycdn.com/1b3ec3165cbbd2b7d5fdb2f0f0ebc6c4.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Versión 1.0.3:== ¡Nuevo! Widget de redes sociales, optimización y más.
+## ==λ v1.0.3:== ¡Nuevo! Widget de redes sociales, optimización y más.
 
 En esta actualización, hemos implementado funcionalidades importantes, optimización de código y mejoras en la experiencia de usuario. A continuación, todos los cambios:
 
@@ -34,7 +34,7 @@ Implementamos una validación estricta para las direcciones de billetera Arweave
 4. **Limpieza de dependencias:** Eliminamos paquetes innecesarios que ya no se usaban, reduciendo el tamaño del proyecto.
 
 ### Mejoras de UI y UX: Iconos SVG.
- 
+
 1. Reemplazamos y optimizamos todos los iconos SVG del sistema.
 2. Implementamos un sistema personalizado de carga para los iconos.
 3. Mejoramos la calidad y consistencia visual de todos los gráficos vectoriales.
@@ -54,4 +54,4 @@ Esta versión consolida todas las mejoras mencionadas y sienta una base más só
 
 **¿Ya probaste las nuevas funciones? ¡Cuéntanos tu experiencia!**
 
-The Getty Team
+### **λ**

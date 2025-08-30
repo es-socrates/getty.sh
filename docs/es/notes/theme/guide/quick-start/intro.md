@@ -1,5 +1,5 @@
 ---
-title: Bienvenido a Getty
+title: Bienvenido a getty
 icon: mdi:tooltip-text-outline
 createTime: 2025/07/28 9:00
 permalink: /es/guide/intro/
@@ -12,7 +12,7 @@ tags:
 
 Ahora, los streamers en Odysee tienen herramientas sencillas para usar en vivo en Odysee, **interactuar con los espectadores** y crecer. Todo ello de forma sencilla, **gratis** y sin necesidad de registrarse. Disfruta de la aplicación y espera más actualizaciones en el futuro.
 
-![getty](https://thumbs.odycdn.com/e80ce98bd84093e80b050db245485887.webp)
+![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
 ::: details **¿No conoces Odysee?**
 
@@ -24,11 +24,11 @@ Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/).
 
 ## La herramienta definitiva
 
-¿Quieres llevar tu directo al siguiente nivel? Con Getty, gestionar tus widgets en OBS nunca ha sido tan fácil y personalizable. Estas son algunas de sus increíbles funciones: ==widgets independientes.==
+¿Quieres llevar tu directo al siguiente nivel? Con getty, gestionar tus widgets en OBS nunca ha sido tan fácil y personalizable. Estas son algunas de sus increíbles funciones: ==widgets independientes.==
 
 ### Más funciones
 
-- ⚡ **Configuración sencilla:** Ejecuta Getty con ==un solo comando==, ya sea en tu PC o servidor.
+- ⚡ **Configuración sencilla:** Ejecuta getty con ==un solo comando==, ya sea en tu PC o servidor.
 - 🔔 **Notificaciones en tiempo real:** Recibe alertas de tus propinas de tokens AR, mensajes de chat, ==objetivos de propinas== y la última propina al instante.
 - 🎨 **Personalización ilimitada:** Cambia colores, fuentes, estilos, títulos y más para que se adapten a tu estilo.
 - 🔄 **Widgets independientes:** Activa solo los que necesites: 1, 2 o todos.
@@ -38,15 +38,15 @@ Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/).
 
 ::: tip
 
-Si buscas una herramienta para impulsar tus directos sin complicaciones, Getty es la solución definitiva. ¿Por qué? Getty es gratuito, sin registro y descentralizado. La mejor experiencia para creadores de contenido.
+Si buscas una herramienta para impulsar tus directos sin complicaciones, getty es la solución definitiva. ¿Por qué? Getty es gratuito, sin registro y descentralizado. La mejor experiencia para creadores de contenido.
 
 :::
 
-![getty](https://thumbs.odycdn.com/94b99e2c1f700d121aa10a7e97e7cdd3.webp)
+![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
 ### ==Libertad total==:
 
-- **Sin registros obligatorios:** Usa Getty al instante, sin compartir datos personales ni crear cuentas.
+- **Sin registros obligatorios:** Usa getty al instante, sin compartir datos personales ni crear cuentas.
 - **Sin dependencia de servidores:** Tus widgets y alertas se ejecutan directamente en tu PC o servidor, sin riesgo de caídas por tráfico masivo.
 - **Tú tienes el control:** Sin intermediarios ni restricciones por cambios en las políticas de plataformas.
 

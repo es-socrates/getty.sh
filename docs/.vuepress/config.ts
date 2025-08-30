@@ -9,12 +9,12 @@ export default defineUserConfig({
   lang: 'en-US',
   locales: {
     '/': {
-      title: 'Getty',
+      title: 'getty',
       lang: 'en-US',
       description: 'Complete and customizable app with tools for live streaming. Tip notifications, tip goals, chat widget, and real-time alerts for your live streams on Odysee.',
     },
     '/es/': {
-      title: 'Getty',
+      title: 'getty',
       lang: 'es-ES',
       description: 'Aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, objetivos de propinas, widget de chat y alertas en tiempo real para tus transmisiones en vivo en Odysee.',
     },

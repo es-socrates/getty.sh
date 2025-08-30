@@ -1,16 +1,16 @@
 ---
-title: Getty updated v1.0.2
+title: getty v1.0.2
 date: 2025-08-02T00:00:00.000Z
 permalink: /en/blog/update.1.0.2/
 createTime: 2025/08/02 3:20
-cover: https://thumbs.odycdn.com/03b0d4aa97b798ca8a964131da92aba9.webp
+cover: https://thumbs.odycdn.com/2db6283dd6a7bcdb99990ed4fb9c30dd.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Version 1.0.2:== Widget and Configuration Improvements
+## ==λ v1.0.2:== Widget and Configuration Improvements
 
 We've implemented several improvements and fixes to optimize your experience!
 
@@ -45,4 +45,4 @@ You can now display the number of viewers in real time with the new 'liveviews' 
 
 Try the new features and let us know what you think!
 
-The Getty Team
+### **λ**

@@ -1,16 +1,16 @@
 ---
-title: Getty updated v1.0.6
+title: getty v1.0.6
 date: 2025-08-19T00:00:00.000Z
 permalink: /en/blog/update.1.0.6/
 createTime: 2025/08/19 17:30
-cover: https://thumbs.odycdn.com/e4ed0a803084b9ef3f5f721ec24bd4fd.webp
+cover: https://thumbs.odycdn.com/95a5240f4d6b6ac769dc4d6a74a76034.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Version 1.0.6:== Update highlights
+## ==λ v1.0.6:== Update highlights
 
 Here’s a tour of the most relevant changes arriving with version 1.0.6. We’ve worked to improve security, performance, and visual experience for both admins and end users. Below is a structured, easy-to-digest summary.
 
@@ -36,7 +36,7 @@ Keeping dependencies up to date not only prevents vulnerabilities, it also lets 
 
 1. Configurable announcement widget: admins can customize messages without touching code.
 2. Fixed data persistence in "Tip Goal," preventing unexpected loss.
-3. Admin panels migrated to OsCard with os-* tokens for uniform titles, margins, and shadows.
+3. Admin panels migrated to OsCard with os-\* tokens for uniform titles, margins, and shadows.
 
 ## Visual interaction
 
@@ -69,4 +69,4 @@ Thanks for being part of Getty!
 
 Every improvement is born from your feedback and our commitment to privacy and usability. If you have questions, suggestions, or find any detail that needs adjustment, don’t hesitate to open an issue in our repository or contact the support team.
 
-The Getty Team
+### **λ**

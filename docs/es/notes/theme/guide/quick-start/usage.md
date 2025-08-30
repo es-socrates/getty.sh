@@ -8,26 +8,28 @@ tags:
   - Inicio rápido
 ---
 
-## ==Cómo instalar y configurar Getty==
+## ==Cómo instalar y configurar getty==
 
-Si quieres potenciar tus interacciones en directo con Getty en Odysee, sigue esta guía paso a paso.
+Si quieres potenciar tus interacciones en directo con getty en Odysee, sigue esta guía paso a paso.
 
 ## Requisitos previos
 
-**¿Qué es Node.js?** Node.js es un entorno de ejecución de JavaScript externo al navegador, diseñado para crear aplicaciones del lado del servidor y herramientas de línea de comandos. Es rápido, eficiente y esencial para muchas herramientas de streaming modernas (como Getty) y aplicaciones web.
+**¿Qué es Node.js?** Node.js es un entorno de ejecución de JavaScript externo al navegador, diseñado para crear aplicaciones del lado del servidor y herramientas de línea de comandos. Es rápido, eficiente y esencial para muchas herramientas de streaming modernas (como getty) y aplicaciones web.
 
-## ¿Por qué Getty usa Node.js?
+![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
+
+## ¿Por qué getty usa Node.js?
 
 - Permite ejecutar JavaScript en tu ordenador (no solo en un navegador).
 - Es ligero y rápido, ideal para aplicaciones en tiempo real (como alertas de streaming).
-- Tiene acceso al sistema de archivos y a las redes, necesario para conectar ==Getty== con OBS, Discord, etc.
-- Utiliza npm (Node Package Manager), lo que simplifica la instalación de dependencias (bibliotecas externas que Getty necesita para funcionar).
+- Tiene acceso al sistema de archivos y a las redes, necesario para conectar ==getty== con OBS, Discord, etc.
+- Utiliza npm (Node Package Manager), lo que simplifica la instalación de dependencias (bibliotecas externas que getty necesita para funcionar).
 
 ![nodejs](https://thumbs.odycdn.com/ef506c21c0db1d42e9abd7a8180e98eb.webp)
 
 ::: important
 
-**¿Necesito saber programación para usarlo?** ¡No! Simplemente instálalo (como cualquier otro programa) y sigue los pasos del tutorial. Getty ya está programado; Node.js es solo el motor que lo hace funcionar.
+**¿Necesito saber programación para usarlo?** ¡No! Simplemente instálalo (como cualquier otro programa) y sigue los pasos del tutorial. getty ya está programado; Node.js es solo el motor que lo hace funcionar.
 
 :::
 
@@ -54,32 +56,33 @@ npm -v
 
 Si estás familiarizado con Github deberás descargar el repositorio mediante cualquier entorno git de tu preferencia. **La opción B:** Descarga los archivos en formato ZIP y extrae la carpeta a tu PC.
 
-2. **Abre la terminal en la carpeta Getty**
+2. **Abre la terminal en la carpeta getty**
 
-Vaya a la carpeta donde se encuentra Getty (ejemplo): cd ruta/carpeta/getty. O, desde la misma carpeta, haga clic derecho, abra la terminal y ejecute el siguiente comando:
+Vaya a la carpeta donde se encuentra getty (ejemplo): cd ruta/carpeta/getty. O, desde la misma carpeta, haga clic derecho, abra la terminal y ejecute el siguiente comando:
 
 ```sh
 npm install
 ```
 
-Esto instalará todo lo necesario para que Getty funcione
+Esto instalará todo lo necesario para que getty funcione
 
-3. **Contruye y ejecuta Getty**
+3. **Contruye y ejecuta getty**
 
 Construya la aplicación con este comando:
 
 ```sh
 npm run build
 ```
+
 Inicia la aplicación con este comando:
 
 ```sh
 npm start
 ```
 
-4. **¡Listo! Accede a Getty en tu navegador.**
+4. **¡Listo! Accede a getty en tu navegador.**
 
-Abra su navegador y vaya a la siguiente dirección para ver la ==página de inicio== de Getty
+Abra su navegador y vaya a la siguiente dirección para ver la ==página de inicio== de getty
 
 ```sh
 http://localhost:3000
@@ -95,7 +98,7 @@ http://localhost:3000/admin.html
 
 ::::
 
-![getty](https://thumbs.odycdn.com/4aea46156da752d9b26664ae4ecd53ce.webp)
+![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
 ## ¿Cómo añadir widgets a OBS?
 
@@ -106,7 +109,8 @@ http://localhost:3000/admin.html
 - ¡Listo! Los widgets aparecerán en tu stream. ¡A streamear!
 
 ::: timeline horizontal
-- Instala Getty
+
+- Instala getty
 
 - OBS Studio
   type=success
@@ -119,4 +123,4 @@ http://localhost:3000/admin.html
 
 - Transmite en vivo
   type=success
-:::
+  :::

@@ -1,23 +1,23 @@
 ---
-title: Getty actualizado v1.0.6
+title: getty v1.0.6
 date: 2025-08-19T00:00:00.000Z
 permalink: /es/blog/update.1.0.6/
 createTime: 2025/08/19 17:30
-cover: https://thumbs.odycdn.com/e4ed0a803084b9ef3f5f721ec24bd4fd.webp
+cover: https://thumbs.odycdn.com/95a5240f4d6b6ac769dc4d6a74a76034.webp
 coverStyle:
   layout: left
   width: 200
   compact: true
 ---
 
-## ==Versión 1.0.6:== Lo más destacado de la actualización
+## ==λ v1.0.6:== Lo más destacado de la actualización
 
 Hoy les traemos un recorrido por los cambios más relevantes que llegan con la nueva versión 1.0.6. Hemos trabajado para mejorar la seguridad, el rendimiento y la experiencia visual tanto para administradores como para usuarios finales. Aquí tienes un resumen estructurado y fácil de digerir.
 
 ## Seguridad reforzada
 
 1. Servidor Express limitado a localhost: ahora la API solo escucha peticiones locales, lo que reduce la superficie de ataque.
-2 Actualización de Helmet (7.2.0 → 8.1.0) – se incorporan nuevas cabeceras de protección y correcciones de vulnerabilidades.
+2. Actualización de Helmet (7.2.0 → 8.1.0) – se incorporan nuevas cabeceras de protección y correcciones de vulnerabilidades.
 
 ::: important
 
@@ -36,7 +36,7 @@ Mantener las dependencias actualizadas no solo evita vulnerabilidades, sino que 
 
 1. Widget de anuncio configurable: los administradores pueden personalizar mensajes sin tocar código.
 2. Persistencia de datos en "Tip Goal" corregida, evitando pérdidas inesperadas.
-3. Paneles de administración migrados a OsCard con tokens os-* para títulos, márgenes y sombras uniformes.
+3. Paneles de administración migrados a OsCard con tokens os-\* para títulos, márgenes y sombras uniformes.
 
 ## Interacción visual
 
@@ -69,4 +69,4 @@ Mantener las dependencias actualizadas no solo evita vulnerabilidades, sino que 
 
 Cada mejora nace de tus comentarios y de nuestro compromiso con la privacidad y la usabilidad. Si tienes dudas, sugerencias o encuentras algún detalle que necesite ajuste, no dudes en abrir un issue en nuestro repositorio o contactar al equipo de soporte.
 
-The Getty Team
+### **λ**
