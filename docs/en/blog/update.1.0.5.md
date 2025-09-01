@@ -31,6 +31,6 @@ In our latest update, we've made several significant improvements that enhance u
 1. **Advanced CI configuration**: Added `node.yml` with a build matrix, npm cache management, build and test steps, concurrency control, and path-specific ignores.
 2. **Security audit**: Performed an npm audit (production, tolerant mode) and managed public artifacts in `workflow_dispatch`.
 
-These combined improvements result in a more robust, secure, and efficient application. We hope you enjoy these enhancements in your Getty experience.
+These combined improvements result in a more robust, secure, and efficient application. We hope you enjoy these enhancements in your getty experience.
 
 ### **λ**

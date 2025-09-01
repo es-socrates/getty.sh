@@ -65,7 +65,7 @@ Mantener las dependencias actualizadas no solo evita vulnerabilidades, sino que 
 2. Explora los nuevos temas de chat desde la sección de chat y prueba el tema que más te guste.
 3. Configura el widget de anuncio para comunicar novedades o promociones directamente desde el panel admin.
 
-¡Gracias por ser parte de Getty!
+¡Gracias por ser parte de getty!
 
 Cada mejora nace de tus comentarios y de nuestro compromiso con la privacidad y la usabilidad. Si tienes dudas, sugerencias o encuentras algún detalle que necesite ajuste, no dudes en abrir un issue en nuestro repositorio o contactar al equipo de soporte.
 

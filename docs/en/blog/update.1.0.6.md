@@ -65,7 +65,7 @@ What does all this mean for you?
 2. Explore the new chat themes in the chat section and try the one you like most.
 3. Configure the announcement widget to communicate news or promotions directly from the admin panel.
 
-Thanks for being part of Getty!
+Thanks for being part of getty!
 
 Every improvement is born from your feedback and our commitment to privacy and usability. If you have questions, suggestions, or find any detail that needs adjustment, don’t hesitate to open an issue in our repository or contact the support team.
 

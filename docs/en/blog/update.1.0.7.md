@@ -12,7 +12,7 @@ coverStyle:
 
 ## ==λ v1.0.7:== Improvements and new features
 
-Over the past few weeks, the Getty experience has been intensively improved, and its security has been reinforced. Among the most visible adjustments are minor fixes to chat themes, the view counter, and ads, which now run more smoothly and without interruptions. Furthermore, the CSS styles for chat themes have been optimized, resulting in a cleaner and more consistent appearance, and enhancements have been added for administrators, making it easier to manage widgets and other settings.
+Over the past few weeks, the getty experience has been intensively improved, and its security has been reinforced. Among the most visible adjustments are minor fixes to chat themes, the view counter, and ads, which now run more smoothly and without interruptions. Furthermore, the CSS styles for chat themes have been optimized, resulting in a cleaner and more consistent appearance, and enhancements have been added for administrators, making it easier to manage widgets and other settings.
 
 ::: important
 
@@ -32,7 +32,7 @@ Improvements were introduced in server optimization and session-based data prote
 
 In the realm of security, data was isolated per session, the wallet was validated, and tokenization measures were applied to protect sensitive information. Widgets now generate tokenized URLs, and the admin panel has additional protections against unwanted access. Furthermore, the raffle was synchronized, and the initial tip goal was configured, offering a more structured experience for live community events.
 
-Finally, new features were added, such as live stream history or statistics from the admin panel, a brand renewal and partial migrations to Arweave, and finally, version 1.0.7 of Getty (λ) was launched, which incorporates performance improvements and minor bug fixes.
+Finally, new features were added, such as live stream history or statistics from the admin panel, a brand renewal and partial migrations to Arweave, and finally, version 1.0.7 of getty (λ) was launched, which incorporates performance improvements and minor bug fixes.
 
 ![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 

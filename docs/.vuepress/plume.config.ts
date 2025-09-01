@@ -29,8 +29,8 @@ export default defineThemeConfig({
     '/': {
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
-        name: 'Getty',
-        description: 'Complete and customizable app with tools for live streaming. Tip notifications, tip goals, chat widget, and real-time alerts for your live streams on Odysee.',
+        name: 'getty',
+        description: 'Complete, customizable app with live-streaming tools for Odysee. Download now!',
         // circle: true,
         // location: '',
         // organization: '',
@@ -54,8 +54,8 @@ export default defineThemeConfig({
     '/es/': {
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
-        name: 'Getty',
-        description: 'Aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, objetivos de propinas, widget de chat y alertas en tiempo real para tus transmisiones en vivo en Odysee.',
+        name: 'getty',
+        description: 'Aplicación completa y personalizable con herramientas de transmisión en directo para Odysee.',
       },
 
       navbar: esNavbar,

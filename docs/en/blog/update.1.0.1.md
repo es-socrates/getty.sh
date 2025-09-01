@@ -57,6 +57,6 @@ This update represents an important step towards a more stable, maintainable, an
 
 :::
 
-Thank you for your support and enjoy Getty version 1.0.1!
+Thank you for your support and enjoy getty version 1.0.1!
 
 ### **λ**

@@ -16,24 +16,4 @@ config:
         - theme: alt
           text: λ  Download now
           link: https://github.com/es-socrates/getty
-  - type: features
-    features:
-      - title: Responsive Layout
-        icon: iconoir:pc-check
-        details: Getty is responsive to mobile, PC, and tablet devices. Your widgets everywhere, always.
-      - title: Blog & Documentation
-        icon: bi:file-text
-        details: Learn about the latest Getty updates, explore the documentation, or both.
-      - title: Out-of-the-Box
-        icon: fluent:rocket-24-regular
-        details: Supports out-of-the-box configuration as well as extensive customization options.
-      - title: Multi-language
-        icon: flowbite:language-outline
-        details: Yes, you can change the app's language at any time. For now English and Spanish. Po-ta-to!!
-      - title: Dual Color Theme
-        icon: fluent:dark-theme-24-regular
-        details: Supports light/dark themes, including text highlighting. Does not affect widgets in OBS.
-      - title: Widgets
-        icon: fluent:box-16-regular
-        details: Built-in widgets to enhance your live streams on Odysee. Tips, alerts, giveaways and more!
 ---

@@ -12,7 +12,7 @@ coverStyle:
 
 ## ==λ v1.0.4:== New Feature: Custom Theme Editing in Chat.
 
-Hello everyone! We're excited to announce the release of the latest version of Getty, version 1.0.4. This update brings several improvements and new features that enhance the user experience. Let's dive into what's changed:
+Hello everyone! We're excited to announce the release of the latest version of getty, version 1.0.4. This update brings several improvements and new features that enhance the user experience. Let's dive into what's changed:
 
 ## What's Changed
 
@@ -75,7 +75,7 @@ Implemented `escapeHTML` to prevent XSS (Cross-Site Scripting) when rendering na
 - **Tailwind Config Adjustments**: Made necessary adjustments to `tailwind.config.js`.
 - **Dependency Cleanup**: Removed unnecessary dependencies to optimize performance.
 
-These changes collectively improve the functionality, usability, and security of Getty. We're committed to providing a seamless and enjoyable experience for all users.
+These changes collectively improve the functionality, usability, and security of getty. We're committed to providing a seamless and enjoyable experience for all users.
 
 ### 15. New Feature: Custom Theme Editing in Chat
 
@@ -89,6 +89,6 @@ Our administration interface has been improved to offer a simple and intuitive c
 
 **Saving and applying:** Once you are satisfied with your theme, save it and apply it to your chat by copying the custom CSS to your chat source in OBS.
 
-If you have any questions or need further assistance, feel free to reach out. Thank you for choosing Getty!
+If you have any questions or need further assistance, feel free to reach out. Thank you for choosing getty!
 
 ### **λ**

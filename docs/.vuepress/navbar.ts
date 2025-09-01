@@ -14,7 +14,7 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
   },
   {
     text: 'App',
-    icon: 'qlementine-icons:executable-16',
+    icon: 'fluent:rocket-24-regular',
     link: 'https://app.getty.sh/',
   },
   {
@@ -41,7 +41,7 @@ export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
   },
   {
     text: 'App',
-    icon: 'qlementine-icons:executable-16',
+    icon: 'fluent:rocket-24-regular',
     link: 'https://app.getty.sh/',
   },
   {

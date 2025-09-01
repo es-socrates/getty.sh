@@ -31,6 +31,6 @@ En nuestra última actualización, hemos realizado varias mejoras significativas
 1. **Configuración avanzada de CI**: Añadimos `node.yml` con matriz de ejecución, gestión de cache de npm, construcción y prueba, control de concurrencia y ignorancia de rutas específicas.
 2. **Auditoría de seguridad**: Realizamos una auditoría de npm (modo producción, tolerante) y gestionamos artefactos públicos en `workflow_dispatch`.
 
-Estas mejoras combinadas resultan en una aplicación más robusta, segura y eficiente. Esperamos que disfrutes de estas mejoras en tu experiencia con Getty.
+Estas mejoras combinadas resultan en una aplicación más robusta, segura y eficiente. Esperamos que disfrutes de estas mejoras en tu experiencia con getty.
 
 ### **λ**
