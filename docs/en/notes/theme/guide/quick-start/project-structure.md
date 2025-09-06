@@ -5,7 +5,7 @@ createTime: 2025/07/28 11:00
 permalink: /en/guide/project-structure/
 ---
 
-### Obtenga más información sobre cómo getty está diseñado para usted.
+### Here is the detailed folder structure of the Getty project based repository
 
 ::: file-tree
 
@@ -24,12 +24,19 @@ permalink: /en/guide/project-structure/
           - ColorInput.vue
           - CopyField.vue
           - ToastHost.vue
+        - ui
+          - alert
+            - Alert.vue
+            - AlertDescription.vue
+            - AlertTitle.vue
+            - index.ts
         - ActivityPanel.vue
         - AnnouncementPanel.vue
         - ChatPanel.vue
         - ChatThemeManager.vue
         - ExternalNotificationsPanel.vue
         - LastTipPanel.vue
+        - LiveAnnouncementPanel.vue
         - LiveviewsPanel.vue
         - MetricsPanel.vue
         - NotificationsPanel.vue
@@ -48,6 +55,8 @@ permalink: /en/guide/project-structure/
     - services
       - api.js
       - toast.js
+    - stores
+      - metricsStore.js
     - styles
       - admin-tailwind.css
       - theme-vars.css
@@ -62,6 +71,7 @@ permalink: /en/guide/project-structure/
       - LiveviewsView.vue
       - NotificationsView.vue
       - RaffleView.vue
+      - SettingsView.vue
       - SocialMediaView.vue
       - StatusView.vue
       - TipGoalView.vue
@@ -154,7 +164,6 @@ permalink: /en/guide/project-structure/
   - welcome.html
   - routes/
     - announcement.js
-    - audio-settings.js
     - audio-settings.js
     - chat.js
     - external-notifications.js

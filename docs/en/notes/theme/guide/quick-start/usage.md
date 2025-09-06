@@ -8,119 +8,111 @@ tags:
   - Quick Start
 ---
 
-## ==How to install and configure getty==
+## ==How to install and configure Getty==
 
-If you want to boost your live performances with getty on Odysee, follow this step-by-step guide.
+If you want to enhance your live interactions on Odysee using Getty, follow this step‑by‑step guide.
 
 ## Prerequisites
 
-**What is Node.js?** Node.js is an out-of-browser JavaScript runtime environment designed for building server-side applications and command-line tools. It is fast, efficient and essential for many modern streaming tools (such as getty) and web applications.
+**What is Node.js?** Node.js is a JavaScript runtime outside the browser, used to build server‑side apps and command‑line tools. It’s fast, efficient, and essential for many modern streaming tools (like Getty) and web applications.
 
-![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
+## Why does Getty use Node.js?
 
-## Why does getty use Node.js?
-
-- It allows you to run JavaScript on your computer (not just in a browser).
-- It's lightweight and fast, ideal for real-time applications (like stream alerts).
-- It has access to the file system and networks, necessary to connect ==getty== with OBS, Discord, etc.
-- It uses npm (Node Package Manager), which simplifies the installation of dependencies (external libraries that getty needs to work).
+- Lets you run JavaScript on your machine (not just in a browser).
+- Lightweight and fast—great for real‑time streaming alerts.
+- Provides filesystem and network access, needed to connect ==Getty== with OBS, Discord, etc.
+- Uses npm (Node Package Manager), which simplifies installing the external libraries Getty needs.
 
 ![nodejs](https://thumbs.odycdn.com/ef506c21c0db1d42e9abd7a8180e98eb.webp)
 
 ::: important
 
-**Do I need to know programming to use it?** No! Just install it (like any other program) and follow the steps in the tutorial. getty is already programmed; Node.js is just the "engine" that makes it work.
+**Do I need to know programming?** No! Just install it (like any other program) and follow the tutorial. Getty is already built; Node.js is just the engine that runs it.
 
 :::
 
-## How to install Node.js?
+## How to install Node.js
 
 - Download the LTS version (recommended) from [Node.js](https://nodejs.org/).
 - Run the installer (next, next... ✔️).
-- Verify that it works by opening your terminal and typing:
+- Verify it works by opening a terminal and typing:
 
 ```sh
 node -v
 npm -v
 ```
 
-## Why is there no traditional .exe/installer?
+## Why isn’t there a traditional .exe installer?
 
-**getty uses Node.js because:** It's cross-platform (runs on Windows, macOS, Linux). It allows fast updates (with git pull and npm install). It is the standard for developer tools.
+**Getty uses Node.js because:** it’s cross‑platform (Windows, macOS, Linux), allows fast updates (git pull + npm install), and is a de‑facto standard for tooling.
 
-## How to install the dependency environment?
+## How to install the dependency environment
 
 ::: steps
 
 1. **Clone or download the repository**
 
-If you're familiar with GitHub, you'll need to download the repository using any Git environment of your choice. **Option B:** Download the files in ZIP format and extract the folder to your PC.
+If you’re familiar with GitHub, [clone the repository](https://github.com/es-socrates/getty) using any git tool you like. **Option B:** download the ZIP and extract it on your PC.
 
-2. **Open the terminal in the Getty folder**
+2. **Open a terminal in the getty folder**
 
-Navigate to the folder where Getty is (example): cd path/to/the/folder/getty. Or, from the same folder, right click, open terminal and run the following command:
+Enter the folder where Getty is located (example): `cd Downloads/getty`. Or from the folder, right‑click, open terminal, then run:
 
 ```sh
 npm install
 ```
 
-This will install everything necessary for getty to work
+This installs everything Getty needs.
 
-3. **Build and run getty**
+3. **Build and run Getty**
 
-Build the application with this command:
-
-```sh
-npm run build
-```
-
-Start the application with this command:
+Run the app with:
 
 ```sh
-npm start
+npm run start:prod
 ```
 
-4. **Done! Access getty in your browser**
+4. **Done! Access Getty in your browser.**
 
-Open your browser and go to the following address to view the getty ==homepage==.
+Open your browser and go to the following address to see Getty’s ==home page==:
 
 ```sh
 http://localhost:3000
 ```
 
-To enter the ==administrator== you must go to the following address or from the user menu.
+To enter the ==admin panel== visit:
 
 ```sh
-http://localhost:3000/admin/status
+http://localhost:3000/admin
 ```
 
-⚡ Configure your widgets (tip alerts, chat, goals, etc.) and add them to OBS. You must configure the wallet address and channel data in admin.
+⚡ Configure your widgets (tip alerts, chat, goals, etc.) and add them to OBS. You must set the wallet address and channel data in admin.
 
 ::::
 
 ![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
-## How to add widgets to OBS?
+## How to add widgets to OBS
 
-- Open the OBS Studio software.
-- Add a new "Browser Source".
-- Paste the URL of your widget: (e.g. localhost:3000/widgets/chat.html).
-- Adjust the size, position and color of each widget.
-- You're done! The widgets will appear in your stream. Let's stream!
+- Open OBS Studio.
+- Add a new “Browser Source.”
+- Paste your widget URL (e.g., localhost:3000/widgets/chat).
+- Adjust size, position, and style for each widget.
+- **Done! Widgets will appear in your stream. Happy streaming!**
 
 ::: timeline horizontal
 
-- Install getty
+- Install Getty
 
 - OBS Studio
   type=success
 
-- URL of the widget
+- Widget URL
   type=danger
 
-- Customize everything
+- Customize
   type=important
 
-- Stream live
+- Go live
   type=success
   :::

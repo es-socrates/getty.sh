@@ -10,13 +10,11 @@ tags:
 
 ## ==Cómo instalar y configurar getty==
 
-Si quieres potenciar tus interacciones en directo con getty en Odysee, sigue esta guía paso a paso.
+Si quieres potenciar tus interacciones en directo con getty con Odysee, sigue esta guía paso a paso.
 
 ## Requisitos previos
 
 **¿Qué es Node.js?** Node.js es un entorno de ejecución de JavaScript externo al navegador, diseñado para crear aplicaciones del lado del servidor y herramientas de línea de comandos. Es rápido, eficiente y esencial para muchas herramientas de streaming modernas (como getty) y aplicaciones web.
-
-![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
 ## ¿Por qué getty usa Node.js?
 
@@ -54,11 +52,11 @@ npm -v
 
 1. **Clonar o descargar el repositorio**
 
-Si estás familiarizado con Github deberás descargar el repositorio mediante cualquier entorno git de tu preferencia. **La opción B:** Descarga los archivos en formato ZIP y extrae la carpeta a tu PC.
+Si estás familiarizado con Github deberás [descargar el repositorio](https://github.com/es-socrates/getty) mediante cualquier entorno git de tu preferencia. **La opción B:** Descarga los archivos en formato ZIP y extrae la carpeta a tu PC.
 
 2. **Abre la terminal en la carpeta getty**
 
-Vaya a la carpeta donde se encuentra getty (ejemplo): cd ruta/carpeta/getty. O, desde la misma carpeta, haga clic derecho, abra la terminal y ejecute el siguiente comando:
+Ingresa a la carpeta donde se encuentra getty (ejemplo): `cd Descargas/getty`. También, desde la carpeta, hacer clic derecho, abrir la terminal y ejecutar el siguiente comando:
 
 ```sh
 npm install
@@ -68,16 +66,10 @@ Esto instalará todo lo necesario para que getty funcione
 
 3. **Contruye y ejecuta getty**
 
-Construya la aplicación con este comando:
+Ejecuta la aplicación con este comando:
 
 ```sh
-npm run build
-```
-
-Inicia la aplicación con este comando:
-
-```sh
-npm start
+npm run start:prod
 ```
 
 4. **¡Listo! Accede a getty en tu navegador.**
@@ -91,7 +83,7 @@ http://localhost:3000
 Para ingresar al ==administrador== deberás ir a la siguiente dirección o desde el menú de usuario.
 
 ```sh
-http://localhost:3000/admin.html
+http://localhost:3000/admin
 ```
 
 ⚡ Configura tus widgets (alertas de propinas, chat, objetivos, etc.) y agrégalos a OBS. Debes configurar la dirección wallet y datos del canal en admin.
@@ -104,9 +96,9 @@ http://localhost:3000/admin.html
 
 - Abre el software de OBS Studio.
 - Agrega una nueva "Fuente del navegador".
-- Pega la URL de tu widget: (p. ej., localhost:3000/widgets/chat.html).
+- Pega la URL de tu widget: (p. ej., localhost:3000/widgets/chat).
 - Ajusta el tamaño, la posición y color de cada widget.
-- ¡Listo! Los widgets aparecerán en tu stream. ¡A streamear!
+- **¡Listo! Los widgets aparecerán en tu stream. ¡A streamear!**
 
 ::: timeline horizontal
 
@@ -118,7 +110,7 @@ http://localhost:3000/admin.html
 - La URL del widget
   type=danger
 
-- Personaliza todo
+- Personaliza
   type=important
 
 - Transmite en vivo

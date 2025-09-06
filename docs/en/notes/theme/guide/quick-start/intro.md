@@ -8,69 +8,70 @@ tags:
   - Quick Start
 ---
 
-==Getty== is a complete and customizable app tools for live streaming. Tip notifications, **tip goals**, chat widget, and **real-time alerts** for your live streams on **Odysee**.
+==Getty== is a complete and customizable live‑stream toolkit for **Odysee**: tip notifications, **tip goals**, chat widget, and **real‑time alerts** for your streams.
 
-Now, the streamers on Odysee to be able to have simple tools to go live on Odysee, **interact with viewers** and grow. All this easily, for **free** and without registration. Enjoy the app and look forward to more updates in the future.
+With Getty, Odysee streamers get powerful tools to engage their audience. All **free**, simple, and with no sign‑up required. Enjoy Getty and look forward to more updates.
 
 ![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
-::: details **Not familiar with Odysee?**
+::: details **New to Odysee? Take a look**
 
-Odysee is a [blockchain-based media platform](https://odysee.com/). We host all kinds of media such as images, articles, PDFs, audio files, etc., but we're best known for hosting videos. Odysee seeks to recapture the spirit of the early 2000s era internet. Rather than favouring corporate content such as late night talk shows, network television, and TV news, Odysee is a place for everyone, including independent creators.
+Odysee is a [blockchain‑based media platform](https://odysee.com/). It hosts all kinds of media—images, articles, PDFs, audio files, etc.—but is best known for video. Odysee aims to bring back the early‑2000s open internet spirit. Instead of boosting corporate late‑night shows, TV brands, or newsroom content, Odysee is a place for everyone, especially independent creators.
 
 ![odysee](https://thumbs.odycdn.com/83ee124694e97c1f109632b94fa6002f.webp)
 
 :::
 
-## The Ultimate Tool
+## The ultimate tool
 
-Want to take your stream to the next level? With getty, managing your widgets in OBS has never been so easy and customizable. Here are some of its amazing features: ==independent widgets.==
+Want to level up your stream? With Getty, managing your widgets in OBS has never been easier or more flexible. Here are some standout features: ==independent widgets.==
 
-### More Features
+### More features
 
-- ⚡ Easy Setup: Run getty with ==a single command==, either on your PC or server.
-- 🔔 Real-Time Notifications: Get alerts for your AR token tips, chat messages, ==donation goals== and the latest tip instantly.
-- 🎨 Unlimited Customization: Change colors, fonts, styles, titles and more to fit your style.
-- 🔄 Standalone Widgets: Activate only the ones you need, either 1, 2 or all.
-- 📢 Discord/Telegram Integration: Send tip notifications to your Discord server or Telegram group.
-- 🗣 Text-to-Speech (TTS): Listen out loud to chat messages when you get tips!
-- 🎉 Custom Commands: Increase the Excitement in your Sweepstakes with Custom Commands!
+- ⚡ **Setup:** Run Getty with ==just a few commands== from your PC or try the hosted version.
+- 🔔 **Real‑time notifications:** Get alerts for Odysee tips, chat messages, or tip goal progress.
+- 🎨 **Unlimited customization:** Adjust colors, styles, titles, and more to fit your branding.
+- 🔄 **Independent widgets:** Enable only the widgets or tools you actually need.
+- 📢 **Integrations:** Send tip notifications to your Discord or Telegram server.
+- 🗣 **Text‑to‑Speech (TTS):** Hear chat messages read aloud when you receive tips.
+- 🎉 **Custom commands:** Boost the hype during giveaways with your own commands.
+- 📈 **Stream history:** Review live session history from the admin panel.
 
-::: tip
+::: note
 
-If you're looking for a tool to power your stream without the hassle, getty is the ultimate solution. Why? getty is free, without user registrations and decentralized. The best experience for content creators.
+If you want a no‑nonsense tool to power your streams, Getty is the answer. Why? It’s free and requires no account. The best experience for creators and streamers.
 
 :::
 
 ![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
-### ==Total freedom==:
+### ==Total freedom==
 
-- **No mandatory registrations:** use getty instantly, without giving out personal data or creating accounts.
-- **No dependency on external servers:** Your widgets and alerts run directly on your PC or server, with no risk of crashes due to massive traffic.
-- **You are in control:** No middlemen, no restrictions due to platforms policy changes.
+- **No mandatory sign‑ups:** Use Getty instantly—no personal data, no account creation.
+- **No server lock‑in:** Widgets and alerts run locally on your machine or server; no centralized outage risk.
+- **You stay in control:** No middlemen, no arbitrary platform policy shifts.
 
-### Optimal performance, no waiting:
+### Optimal performance, no waiting
 
-- **No queues or slowness:** Being a local app, your notifications and widgets respond instantly, without relying on the cloud.
-- **Uses few resources:** Designed to be lightweight, ideal for streamers who already have OBS and other apps consuming RAM/CPU.
+- **No queues, no lag:** Local execution means instant widget and alert response—no cloud dependency.
+- **Low resource footprint:** Lightweight design ideal for streamers already juggling OBS and other tools.
 
-### Privacy guaranteed:
+### Privacy guaranteed
 
-- **Your data is only yours:** We don't sell information, no hidden tracking.
-- **Works in any environment:** Windows, Linux, Mac. getty adapts without blocking features by "official support".
+- **Your data is yours:** No selling, no hidden tracking.
+- **Runs anywhere:** Windows, Linux, Mac—Getty adapts without feature gating by “official support.”
 
-### Unlimited customization:
+### Unlimited customization
 
-- **Change colors, fonts and layouts:** No restrictions or subscriptions to unlock features.
-- **External Notifications:** Send notifications of your tips and hyperchat messages to your Telegram and Discord groups.
+- **Change colors, fonts, layouts:** No paywalls or subscription locks for core features.
+- **External notifications:** Forward tip and hyperchat messages to your Telegram and Discord groups.
 
-### For streamers, made with love!
+### For streamers, built with care
 
-We know how frustrating it is to rely on services that suddenly become paid, limit features, shut down, or simply ==don't support other platforms==. Getty is open source and built to last, with updates focused on what you really need.
+We know how frustrating it is when services suddenly go paid, throttle features, shut down—or simply ==ignore alternative platforms==. Getty is open source and built to last, with updates focused on what you actually need.
 
-::: note
+::: important
 
-Getty doesn't have a server-side application; it functions as a locally run, self-managed client. We know this may feel a little strange to some users, but we think it's the best way to manage your needs. We look forward to sharing more features in the future.
+There is a hosted test instance you can try; however, that server may enforce rate or throughput limits because it runs in a staging environment.
 
 :::

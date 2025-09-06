@@ -8,13 +8,13 @@ tags:
   - Inicio rápido
 ---
 
-==Getty==, una aplicación completa y personalizable con herramientas para la transmisión en vivo. Notificaciones de propinas, **metas de propinas**, recompensas de chat y **alertas en tiempo real** para tus retransmisiones en vivo en **Odysee**.
+==Getty==, una aplicación completa y personalizable con herramientas de transmisión en vivo para **Odysee**. Notificaciones de propinas, **objetivos de propinas**, widget de chat y **alertas en tiempo real** para tus transmisiones en vivo.
 
-Ahora, los streamers en Odysee tienen herramientas sencillas para usar en vivo en Odysee, **interactuar con los espectadores** y crecer. Todo ello de forma sencilla, **gratis** y sin necesidad de registrarse. Disfruta de la aplicación y espera más actualizaciones en el futuro.
+Con getty, los streamers en Odysee tienen increíbles herramientas para interactuar con sus seguidores. Todo de forma sencilla, **gratuita** y sin registros. Disfruta de getty y espera más actualizaciones.
 
 ![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
-::: details **¿No conoces Odysee?**
+::: details **¿No conoces Odysee? Dale un vistazo**
 
 Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/). Alojamos todo tipo de medios, como imágenes, artículos, PDF, archivos de audio, etc., pero somos más conocidos por alojar vídeos. Odysee pretende recuperar el espíritu de la Internet de principios de los años 2000. En lugar de favorecer los contenidos corporativos, como los programas de entrevistas nocturnas, las cadenas de televisión y los telediarios, Odysee es un lugar para todos, incluidos los creadores independientes.
 
@@ -28,17 +28,18 @@ Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/).
 
 ### Más funciones
 
-- ⚡ **Configuración sencilla:** Ejecuta getty con ==un solo comando==, ya sea en tu PC o servidor.
-- 🔔 **Notificaciones en tiempo real:** Recibe alertas de tus propinas de tokens AR, mensajes de chat, ==objetivos de propinas== y la última propina al instante.
-- 🎨 **Personalización ilimitada:** Cambia colores, fuentes, estilos, títulos y más para que se adapten a tu estilo.
-- 🔄 **Widgets independientes:** Activa solo los que necesites: 1, 2 o todos.
-- 📢 **Integración con Discord/Telegram:** Envía notificaciones de propinas a tu servidor de Discord o grupo de Telegram.
+- ⚡ **Configuración:** Ejecuta getty con ==pocos comandos== desde tu PC o prueba la versión hosted.
+- 🔔 **Notificaciones en tiempo real:** Recibe alertas de tus propinas en Odysee, mensajes de chat u objetivos de propinas.
+- 🎨 **Personalización ilimitada:** Cambia colores, estilos, títulos y más para que se adapten a tus necesidades.
+- 🔄 **Widgets independientes:** Activa solo los widgets o herramientas que necesites.
+- 📢 **Integración** Envía notificaciones de propinas a tu servidor de Discord o Telegram.
 - 🗣 **Texto a voz (TTS):** ¡Escucha en voz alta los mensajes de chat cuando recibas propinas!
 - 🎉 **Comandos personalizados:** ¡Aumenta la emoción de tus sorteos con comandos personalizados!
+- 📈 **Historial de directos:** Revisa el historial de tus transmisiones en vivo desde el admin.
 
-::: tip
+::: note
 
-Si buscas una herramienta para impulsar tus directos sin complicaciones, getty es la solución definitiva. ¿Por qué? Getty es gratuito, sin registro y descentralizado. La mejor experiencia para creadores de contenido.
+Si buscas una herramienta para impulsar tus directos sin complicaciones, getty es la solución definitiva. ¿Por qué? Getty es gratuito y sin registro. La mejor experiencia para creadores de contenido y streamers.
 
 :::
 
@@ -69,8 +70,8 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 
 Sabemos lo frustrante que es depender de servicios que de repente se vuelven de pago, limitan funciones, cierran o simplemente ==no dan soporte a otras plataformas==. Getty es de código abierto y está diseñado para durar, con actualizaciones enfocadas en lo que realmente necesitas.
 
-::: note
+::: important
 
-Getty no tiene una aplicación en un servidor; funciona como un cliente que se ejecuta localmente y se administra por cuenta propia. Sabemos que esto puede resultar un poco extraño para algunos usuarios, pero creemos que es la mejor manera de gestionar lo que necesitas. Esperamos compartir más funcionalidades en el futuro.
+Actualmente getty tiene una versión hosted que puedes probar, sin embargo, esta versión de servidor puede tener algunas limitaciones en la cantidad de peticiones o velocidad de datos, ya que es un servidor de pruebas.
 
 :::

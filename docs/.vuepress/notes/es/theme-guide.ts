@@ -17,6 +17,8 @@ export const themeGuide: ThemeNote = defineNoteConfig({
         { text: 'Estructura', link: '/es/guide/project-structure/' },
         { text: 'Actualizaciones', link: '/es/guide/blog/' },
         { text: 'Licencia MIT', link: '/es/guide/license/' },
+        { text: 'Términos de uso', link: '/es/guide/terms/' },
+        { text: 'Política de Privacidad', link: '/es/guide/privacypolicy/' },
       ],
     },
   ],
