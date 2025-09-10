@@ -32,7 +32,7 @@ If you prefer full control, you can also trigger the notification manually from 
 
 ### Stream history
 
-In addition to instant notification, getty v1.0.8 introduces a ==live streaming history== that turns raw data into a complete strategic view. From the table you can see how many hours you’ve been on air, total views received, accumulated and verifiable tips to your Arweave wallet, average viewers, and active days.
+In addition to instant notification, getty v1.0.8 introduces a ==live streaming history== that turns raw data into a complete strategic view. From the table you can see how many hours you’ve been on air, total views received, accumulated and verifiable tips to your Odysee wallet, average viewers, and active days.
 
 **All of it breaks down flexibly:** you can filter by day, week, or year and choose between line or bar chart views to spot trends instantly. The tool also lets you export the entire history for external analysis and import previous data, ensuring you never lose a single piece of your creator journey. With this panel, every streamer holds a real‑metrics roadmap ready to fuel their next big leap.
 

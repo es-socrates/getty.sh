@@ -12,29 +12,29 @@ coverStyle:
 
 ## ==λ v1.0.8:== ¡Lo hemos vuelto a hacer!
 
-Getty ha vuelto a superarse con la ==versión 1.0.8==, y lo hace con un excelentes soluciones que animarán a cualquiera a hacer transmisiones en vivo en Odysee, ahora con más notificaciones en tiempo real.
+Getty ha vuelto a superarse con la ==versión 1.0.8==, y lo hace con excelentes soluciones que animarán a cualquiera a hacer transmisiones en vivo en Odysee, ahora con más notificaciones en tiempo real.
 
-Esta actualización no solo pule los detalles que ya conocías, sino que abre una puerta totalmente nueva: **notificar automáticamente a tus canales de Discord o Telegram cuando tu transmisión pasa a "en vivo"**. Imagina que cada seguidor reciba al instante la alerta de que el show ha comenzado, sin que tengas que mover un dedo. ¡Eso es poder de integración al máximo!
+Esta actualización no solo pule los detalles que ya conocías, sino que abre una puerta totalmente nueva: **notificar automáticamente a tus canales de Discord o Telegram cuando tu transmisión pasa a "en vivo"**. Imagina que cada seguidor reciba al instante la alerta que el show ha comenzado, sin que tengas que mover un dedo. ¡Eso es poder de integración al máximo!
 
 ### ¿Qué trae de nuevo la página de Integraciones?
 
-En la sección Integraciones encontrarás un formulario fresco y amigable que te permite configurar todo lo necesario para que tus notificaciones lleguen a los lugares correctos:
+En la página de Integraciones encontrarás un formulario fresco y amigable que te permite configurar todo lo necesario para que tus notificaciones lleguen a los lugares correctos:
 
 - **Selecciona tu destino:** Discord o Telegram, según donde tu comunidad esté más activa.
 - **Personaliza el mensaje:** Define título, descripción, miniatura y pie de página. Cada campo está pensado para que tu anuncio sea visualmente atractivo y coherente con tu branding.
-- **Guarda y listo:** Una vez guardada la configuración, el sistema queda a la espera de que tu canal entre en estado "en vivo". En ese momento, la notificación se dispara automáticamente, asegurando que nadie se pierda el comienzo de tu stream.
+- **Guarda y listo:** Una vez guardada la configuración, el sistema queda a la espera de que tu canal entre en estado "en vivo". En ese momento, la notificación se "dispara" automáticamente, asegurando que nadie se pierda el comienzo de tu stream.
 
 ::: note
 
-Si prefieres mantener el control total, también puedes lanzar la notificación de forma manual desde las opciones. Es totalmente opcional, pero resulta útil para pruebas o para casos en los que quieras añadir un toque personal justo antes del arranque.
+Si prefieres mantener el control total, también puedes enviar la notificación de forma manual desde las opciones. Es totalmente opcional, pero resulta útil para pruebas o para casos en los que quieras añadir un toque personal justo antes del arranque.
 
 :::
 
 ### Historial de streams
 
-Además de la notificación instantánea, getty v1.0.8 incorpora un ==historial de transmisiones en vivo== que convierte los datos crudos en una visión estratégica completa. Desde la tabla de contenidos podrás consultar cuántas horas has estado al aire, cuántas visitas totales recibiste, las propinas acumuladas y verificables de tu billetera en Arweave, el promedio de espectadores y los días activos.
+Además de la notificación instantánea, getty v1.0.8 incorpora un ==historial de transmisiones en vivo== que convierte los datos crudos en una visión estratégica completa. Desde la tabla de contenidos podrás consultar cuántas horas has estado en vivo, cuántas visitas totales recibiste, las propinas acumuladas y verificables de tu billetera en Odysee, el promedio de espectadores y los días activos.
 
-**Todo ello se desglosa de forma flexible:** puedes filtrar por día, semana o año y elegir entre vistas lineales o gráficas de barras para detectar tendencias al instante. Además, la herramienta permite exportar todo el historial para análisis externo, y importar datos previos, garantizando que nunca pierdas ni un solo detalle de tu trayectoria como creador. Con este panel, cada streamer tiene en sus manos una hoja de ruta basada en métricas reales, lista para impulsar su próximo gran salto.
+**Todo se desglosa de forma flexible:** puedes filtrar por día, semana o año y elegir entre vistas lineales o gráficas de barras para detectar tendencias al instante. Además, la herramienta permite exportar todo el historial para análisis externo, e importar datos previos, garantizando que nunca pierdas ni un solo detalle de tu trayectoria como creador. Con este panel, cada streamer tiene en sus manos una hoja de ruta basada en métricas reales, lista para impulsar su próximo gran salto.
 
 ![getty](https://thumbs.odycdn.com/17982d69339255fafa957ec17f8543c7.webp)
 
