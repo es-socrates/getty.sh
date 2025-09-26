@@ -16,7 +16,7 @@ Introducing getty v1.1.0, a surprise update packed with new features, fixes, and
 
 ### Achievement system for live streams
 
-Starting with this version, streamers can receive unlocked achievement notifications that trigger automatically when the audience meets certain criteria in your Odysee livestreams. Achievements appear both on the OBS screen and on getty’s main page.
+Starting with this version, streamers can receive unlocked achievement notifications that trigger automatically when the audience meets certain criteria in your Odysee live streams. Achievements appear both on the OBS screen and on getty’s main page.
 
 ![getty](https://thumbs.odycdn.com/e69370a4bc0e536d87e9765d4fc3abb8.webp)
 
@@ -26,7 +26,7 @@ From the achievements page in getty’s admin area you can watch in real time as
 
 ::: important
 
-Make sure the configuration is correct. Check whether a feature requires the ClaimID of your channel or the ClaimID of your live stream post. A ClaimID is a unique identifier for a channel or a piece of content.
+Check that the settings are correct. This feature requires your channel's ClaimID, not your live stream post's ClaimID. A ClaimID is a unique identifier for a channel or piece of content.
 
 :::
 
@@ -51,6 +51,6 @@ For audio you can choose between a remote default sound or upload a custom file 
 
 The v1.1.0 update transforms how you interact with your audience. Achievements are now more engaging, customizable, and easy to integrate into your streams, while the new design and sound control make every notification a memorable moment.
 
-If you have questions or want to share feedback, please email **hello@getty.sh**.
+If you have questions or want to share feedback, please email **hello@getty.sh**. Follow our [account on X](https://x.com/getty_sh) and our [channel on Odysee](https://odysee.com/@getty:8) for more updates.
 
 ### **λ**

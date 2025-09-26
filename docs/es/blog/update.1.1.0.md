@@ -26,7 +26,7 @@ Desde la página de logros en la administración de getty puedes ver en tiempo r
 
 ::: important
 
-Comprueba que la configuración sea la correcta. Comprueba si una funcionalidad requiere el ClaimID de tu canal o el ClaimID de tu post de transmisión en vivo. Un ClaimID es un identificador único para un canal o contenido.
+Comprueba que la configuración sea la correcta. La funcionalidad requiere el ClaimID de tu canal, no el ClaimID de tu post de transmisión en vivo. Un ClaimID es un identificador único para un canal o contenido.
 
 :::
 
