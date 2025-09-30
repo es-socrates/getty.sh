@@ -14,6 +14,6 @@ config:
           text: Documentación
           link: /es/guide/intro/
         - theme: alt
-          text: λ Descargar ahora
-          link: https://github.com/es-socrates/getty
+          text: λ Únete ahora
+          link: https://app.getty.sh/
 ---

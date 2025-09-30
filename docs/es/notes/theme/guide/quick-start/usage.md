@@ -8,111 +8,115 @@ tags:
   - Inicio rápido
 ---
 
-## ==Cómo instalar y configurar getty==
+## ==Instala y configura getty==
 
-Si quieres potenciar tus interacciones en directo con getty con Odysee, sigue esta guía paso a paso.
+::: important
+
+La instalación de getty en tu computadora es totalmente opcional. Actualmente getty funciona en línea y puedes configurar tu cuenta y tener tus datos sincronizados en la nube cuando estés en vivo.
+
+:::
+
+Si quieres potenciar tus interacciones en vivo en Odysee usando getty, sigue esta guía paso a paso.
 
 ## Requisitos previos
 
-**¿Qué es Node.js?** Node.js es un entorno de ejecución de JavaScript externo al navegador, diseñado para crear aplicaciones del lado del servidor y herramientas de línea de comandos. Es rápido, eficiente y esencial para muchas herramientas de streaming modernas (como getty) y aplicaciones web.
+**¿Node.js?** Es un entorno de ejecución de JavaScript fuera del navegador, usado para crear aplicaciones del lado del servidor y herramientas de línea de comandos. Es rápido, eficiente y esencial para muchas herramientas modernas de streaming (como getty) y aplicaciones web.
 
 ## ¿Por qué getty usa Node.js?
 
-- Permite ejecutar JavaScript en tu ordenador (no solo en un navegador).
-- Es ligero y rápido, ideal para aplicaciones en tiempo real (como alertas de streaming).
-- Tiene acceso al sistema de archivos y a las redes, necesario para conectar ==getty== con OBS, Discord, etc.
-- Utiliza npm (Node Package Manager), lo que simplifica la instalación de dependencias (bibliotecas externas que getty necesita para funcionar).
+- Te permite ejecutar JavaScript en tu equipo (no solo en el navegador).
+- Ligero y rápido—ideal para alertas de streaming en tiempo real.
+- Proporciona acceso al sistema de archivos y a la red, necesario para conectar ==getty== con OBS, Discord, etc.
+- Usa pnpm (Node Package Manager), que simplifica la instalación de las bibliotecas externas que necesita Getty.
 
 ![nodejs](https://thumbs.odycdn.com/ef506c21c0db1d42e9abd7a8180e98eb.webp)
 
 ::: important
 
-**¿Necesito saber programación para usarlo?** ¡No! Simplemente instálalo (como cualquier otro programa) y sigue los pasos del tutorial. getty ya está programado; Node.js es solo el motor que lo hace funcionar.
+**¿Necesito saber programar?** ¡No! Solo instálalo (como cualquier otro programa) y sigue el tutorial. Getty ya está construido; Node.js es solo el motor que lo ejecuta.
 
 :::
 
-## ¿Cómo instalar Node.js?
+## Cómo instalar Node.js
 
-- Descargue la versión LTS (recomendada) desde [Node.js](https://nodejs.org/).
-- Ejecute el instalador (siguiente, siguiente...) ✔️).
-- Verifique que funcione abriendo su terminal y escribiendo:
+- Descarga la versión LTS (recomendada) desde [Node.js](https://nodejs.org/).
+- Instala Node.js 22.x (el proyecto requiere Node >=22 <23).
+- Habilita Corepack (incluido con Node) para que pnpm sea gestionado automáticamente por la versión fijada en package.json.
+- Verifica que funciona abriendo una terminal y escribiendo:
 
 ```sh
-node -v
-npm -v
+corepack enable
+node -v   # debería imprimir v22.x.x
+pnpm -v   # Corepack aprovisionará pnpm@9.12.3
 ```
 
-## ¿Por qué no existe un instalador .exe tradicional?
+## ¿Por qué no hay un instalador .exe tradicional?
 
-**Getty usa Node.js porque:** Es multiplataforma (funciona en Windows, macOS y Linux). Permite actualizaciones rápidas (con git pull y npm install). Es el estándar para herramientas de desarrollo.
+**Getty usa Node.js porque:** es multiplataforma (Windows, macOS, Linux), permite actualizaciones rápidas (git pull + pnpm install) y es un estándar de facto para herramientas.
 
-## ¿Cómo instalar el entorno de dependencia?
+## Cómo instalar el entorno de dependencias
 
 ::: steps
 
 1. **Clonar o descargar el repositorio**
 
-Si estás familiarizado con Github deberás [descargar el repositorio](https://github.com/es-socrates/getty) mediante cualquier entorno git de tu preferencia. **La opción B:** Descarga los archivos en formato ZIP y extrae la carpeta a tu PC.
+Si estás familiarizado con GitHub, [clona el repositorio](https://github.com/es-socrates/getty) usando cualquier herramienta git que prefieras. **Opción B:** descarga el ZIP y extráelo en tu PC.
 
-2. **Abre la terminal en la carpeta getty**
+2. **Abrir una terminal en la carpeta de getty**
 
-Ingresa a la carpeta donde se encuentra getty (ejemplo): `cd Descargas/getty`. También, desde la carpeta, hacer clic derecho, abrir la terminal y ejecutar el siguiente comando:
-
-```sh
-npm install
-```
-
-Esto instalará todo lo necesario para que getty funcione
-
-3. **Contruye y ejecuta getty**
-
-Ejecuta la aplicación con este comando:
+Entra a la carpeta donde está Getty (ejemplo): `cd Downloads/getty`. O desde la carpeta, clic derecho, abrir terminal, luego ejecuta:
 
 ```sh
-npm run start:prod
+pnpm install
 ```
 
-4. **¡Listo! Accede a getty en tu navegador.**
+Esto instala todo lo que Getty necesita.
 
-Abra su navegador y vaya a la siguiente dirección para ver la ==página de inicio== de getty
+3. **Compilar y ejecutar Getty**
+
+Ejecuta la app con:
+
+```sh
+pnpm run build
+pnpm run start:prod
+```
+
+4. **¡Listo! Accede a Getty en tu navegador.**
+
+Abre tu navegador y ve a la siguiente dirección para ver la ==página de inicio== de Getty:
 
 ```sh
 http://localhost:3000
 ```
 
-Para ingresar al ==administrador== deberás ir a la siguiente dirección o desde el menú de usuario.
+Para ingresar al ==panel de administración== visita:
 
 ```sh
-http://localhost:3000/admin
+http://localhost:3000/admin/status
 ```
 
-⚡ Configura tus widgets (alertas de propinas, chat, objetivos, etc.) y agrégalos a OBS. Debes configurar la dirección wallet y datos del canal en admin.
+**Importante:** Si descargas una actualización de getty, debes repetir el proceso de instalación. En algunos casos puede haber nuevas dependencias por instalar, por lo que puede ser necesario repetir el proceso.
+
+⚡ Configura tus widgets (alertas de propinas, chat, metas, etc.) y añádelos a OBS. Debes establecer la dirección de la billetera y los datos del canal en admin.
 
 ::::
 
+## Visita getty en el navegador:
+
+- **Bienvenida & landing:** http://localhost:3000/ (las visitas por primera vez redirigen a /welcome para que elijas idioma y conectes tu billetera).
+- **Dashboard:** http://localhost:3000/user/tu-token-de-usuario
+  Después de iniciar sesión con Wander Wallet, getty emite un token de widget y lo guarda en la cookie/localStorage getty_widget_token. Las visitas posteriores a / redirigen automáticamente a tu ruta de dashboard.
+  Si un token expira o se elimina, la página de bienvenida lo indica claramente y te pide iniciar sesión de nuevo.
+- **Admin:** http://localhost:3000/admin/status
+
+La página de administración de la app tiene todos los enlaces de widgets para OBS. Te recomiendo guardar los cambios en la página de admin y comprobar que todos estén activos, o al menos los que necesitas.
+
 ![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
 
-## ¿Cómo añadir widgets a OBS?
+## Cómo agregar widgets a OBS
 
-- Abre el software de OBS Studio.
-- Agrega una nueva "Fuente del navegador".
-- Pega la URL de tu widget: (p. ej., localhost:3000/widgets/chat).
-- Ajusta el tamaño, la posición y color de cada widget.
-- **¡Listo! Los widgets aparecerán en tu stream. ¡A streamear!**
-
-::: timeline horizontal
-
-- Instala getty
-
-- OBS Studio
-  type=success
-
-- La URL del widget
-  type=danger
-
-- Personaliza
-  type=important
-
-- Transmite en vivo
-  type=success
-  :::
+- Abre OBS Studio.
+- Añade una nueva "Fuente de navegador" (Browser Source).
+- Pega la URL de tu widget (p. ej., localhost:3000/widgets/chat).
+- Ajusta el tamaño, la posición y el estilo de cada widget.
+- **¡Listo! Los widgets aparecerán en tu transmisión. ¡Feliz streaming!**

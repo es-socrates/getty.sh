@@ -10,11 +10,17 @@ tags:
 
 ==Getty==, una aplicación completa y personalizable con herramientas de transmisión en vivo para **Odysee**. Notificaciones de propinas, **objetivos de propinas**, widget de chat y **alertas en tiempo real** para tus transmisiones en vivo.
 
-Con getty, los streamers en Odysee tienen increíbles herramientas para interactuar con sus seguidores. Todo de forma sencilla, **gratuita** y sin registros. Disfruta de getty y espera más actualizaciones.
+Con getty, los streamers en Odysee tienen increíbles herramientas para interactuar con sus seguidores. Todo de forma sencilla, **gratuita** y sin registros, solo usa tu billetera **wander**. Disfruta de getty y espera más actualizaciones.
+
+::: important
+
+La instalación de **getty** en tu ordenador es totalmente opcional. Actualmente, getty funciona en línea y puedes configurar tu cuenta y sincronizar tus datos en la nube cuando estés conectado. Puedes probar getty ahora mismo.
+
+:::
 
 ![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
-::: details **¿No conoces Odysee? Dale un vistazo**
+::: details **¿Nuevo en Odysee? Dale un vistazo**
 
 Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/). Alojamos todo tipo de medios, como imágenes, artículos, PDF, archivos de audio, etc., pero somos más conocidos por alojar vídeos. Odysee pretende recuperar el espíritu de la Internet de principios de los años 2000. En lugar de favorecer los contenidos corporativos, como los programas de entrevistas nocturnas, las cadenas de televisión y los telediarios, Odysee es un lugar para todos, incluidos los creadores independientes.
 
@@ -22,20 +28,28 @@ Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/).
 
 :::
 
+## Acerca de Wander
+
+La aplicación Wander es una billetera digital segura y fácil de usar para Odysee, que le permite autenticarse en getty sin necesidad de contraseñas tradicionales. Es esencial para acceder a funciones de getty como la configuración de widgets y la gestión de datos cifrados. Descarga Wander desde [Wander App](https://www.wander.app/) para empezar.
+
 ## La herramienta definitiva
 
 ¿Quieres llevar tu directo al siguiente nivel? Con getty, gestionar tus widgets en OBS nunca ha sido tan fácil y personalizable. Estas son algunas de sus increíbles funciones: ==widgets independientes.==
 
 ### Más funciones
 
-- ⚡ **Configuración:** Ejecuta getty con ==pocos comandos== desde tu PC o prueba la versión hosted.
-- 🔔 **Notificaciones en tiempo real:** Recibe alertas de tus propinas en Odysee, mensajes de chat u objetivos de propinas.
-- 🎨 **Personalización ilimitada:** Cambia colores, estilos, títulos y más para que se adapten a tus necesidades.
-- 🔄 **Widgets independientes:** Activa solo los widgets o herramientas que necesites.
-- 📢 **Integración** Envía notificaciones de propinas a tu servidor de Discord o Telegram.
+- ⚡ **Configuración sencilla:** Ejecuta getty con un ==único comando== en tu PC.
+- 🔔 **Notificaciones en tiempo real:** Recibe alertas instantáneas sobre tus propinas en tokens AR, mensajes de chat, objetivos de donación y las últimas propinas.
+- 🎨 **Personalización ilimitada:** Cambia los colores, tamaño de fuentes, estilos, títulos y mucho más para adaptarlo a tu estilo.
+- 🔄 **Widgets independientes:** Activa solo los que necesites para tus directos.
+- 📢 **Integración con Discord/Telegram:** Envía notificaciones de propinas a tu servidor de Discord o grupo de Telegram.
 - 🗣 **Texto a voz (TTS):** ¡Escucha en voz alta los mensajes de chat cuando recibas propinas!
-- 🎉 **Comandos personalizados:** ¡Aumenta la emoción de tus sorteos con comandos personalizados!
-- 📈 **Historial de directos:** Revisa el historial de tus transmisiones en vivo desde el admin.
+- 🎉 **Comandos personalizados:** Aumenta el entusiasmo durante los sorteos con tus propios comandos.
+- ❇️ **Anuncio:** Crea mensajes aleatorios en banners para tus espectadores.
+- #️⃣ **Redes sociales:** Muestra tus cuentas de redes sociales con paneles.
+- 💬 **Chat en vivo:** Añade un widget de chat a tu OBS con diferentes temas.
+- 📈 **Historial de transmisiones:** Estadísticas en tiempo real e históricas de tus transmisiones en Odysee.
+- 🎉 **Sistema de logros:** Recibe notificaciones de logros en tiempo real.
 
 ::: note
 
@@ -48,7 +62,7 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 ### ==Libertad total==:
 
 - **Sin registros obligatorios:** Usa getty al instante, sin compartir datos personales ni crear cuentas.
-- **Sin dependencia de servidores:** Tus widgets y alertas se ejecutan directamente en tu PC o servidor, sin riesgo de caídas por tráfico masivo.
+- **Sin dependencia de servidores:** Como uso opcional, getty puede correr directamente desde tu PC, sin riesgo de caídas por tráfico masivo.
 - **Tú tienes el control:** Sin intermediarios ni restricciones por cambios en las políticas de plataformas.
 
 ### Rendimiento óptimo, sin esperas:
@@ -69,9 +83,3 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 ### ¡Para streamers, hecho con amor!
 
 Sabemos lo frustrante que es depender de servicios que de repente se vuelven de pago, limitan funciones, cierran o simplemente ==no dan soporte a otras plataformas==. Getty es de código abierto y está diseñado para durar, con actualizaciones enfocadas en lo que realmente necesitas.
-
-::: important
-
-Actualmente getty tiene una versión hosted que puedes probar, sin embargo, esta versión de servidor puede tener algunas limitaciones en la cantidad de peticiones o velocidad de datos, ya que es un servidor de pruebas.
-
-:::

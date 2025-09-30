@@ -44,7 +44,7 @@ Create exciting giveaways directly from the chat with this interactive widget. P
 
 ::: warning
 
-Giveaways in the chat or live stream are 100% managed by the channel owner and not by Getty or Odysee.
+Giveaways in the chat or live stream are 100% managed by the channel owner and not by getty or Odysee.
 
 :::
 
