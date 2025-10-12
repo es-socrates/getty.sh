@@ -80,6 +80,6 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 - **Cambia colores, fuentes y diseños:** Sin restricciones ni suscripciones para desbloquear funcionalidaes.
 - **Notificaciones externas:** Envía notificaciones de tus propinas y mensajes de hyperchat a tus grupos de Telegram y Discord.
 
-### ¡Para streamers, hecho con amor!
+### Para streamers, hecho con amor.
 
 Sabemos lo frustrante que es depender de servicios que de repente se vuelven de pago, limitan funciones, cierran o simplemente ==no dan soporte a otras plataformas==. Getty es de código abierto y está diseñado para durar, con actualizaciones enfocadas en lo que realmente necesitas.

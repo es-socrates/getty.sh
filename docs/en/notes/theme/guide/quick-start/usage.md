@@ -18,7 +18,7 @@ To set up getty in online mode and localhost, you need to sign in with Wander. W
 
 ## Back up your wallet
 
-We recommend backing up your Wander wallet in a safe place. This wallet backup is also necessary when setting up your wallet in Odysee with Wander. To learn more about how to back up your wallet, visit the documentation on Odysee. [Integrated Wander Wallet](https://help.odysee.tv/en/category-monetization/wander/).
+We recommend backing up your Wander wallet in a safe place. This wallet backup is also necessary when setting up your wallet in Odysee with Wander. To learn more about how to back up your wallet, visit the documentation on Odysee. [Integrated Wander Wallet](https://help.odysee.tv/category-monetization/).
 
 ## Modules and widgets in getty
 
