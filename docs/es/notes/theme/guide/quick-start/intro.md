@@ -57,7 +57,7 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 
 :::
 
-![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
+![getty](https://thumbs.odycdn.com/f6efdb258f171eab858482e3402ffc78.webp)
 
 ### ==Libertad total==:
 

@@ -8,15 +8,65 @@ tags:
   - Inicio rápido
 ---
 
-## ==Instala y configura getty==
+# Primeros pasos
+
+## Inicia sesión con Wander
+
+Para configurar getty en el modo online y en localhost debes iniciar sesión con Wander. Wander App es una billetera digital segura y fácil de usar para Odysee, que te permite autenticarte en getty sin necesidad de contraseñas tradicionales. Es esencial para acceder a funciones de getty como la configuración de widgets y la gestión de datos cifrados. [Descarga Wander para empezar](https://www.wander.app/).
+
+![getty](https://thumbs.odycdn.com/9b4343aebb3729a88e5f87b93ed4caf1.webp)
+
+## Respalda tu billetera
+
+Recomendamos respaldar tu billetera Wander en un lugar seguro. Este respaldo de la billetera también es necesario cuando configuras tu billetera en Odysee con Wander. Para saber más sobre cómo respaldar tu billetera visita la documentación en Odysee. [Billetera Wander Integrada](https://help.odysee.tv/es/category-monetization/wander/).
+
+## Módulos y widgets en getty
+
+Cada módulo o widget en getty debe ser configurado para que puedas integrarlo en las escenas de tu OBS o software de transmisión en vivo. No es necesario que los configures todos, pero si necesitas configurar los más básicos aquí te mostramos cómo configurar los widgets más importantes.
+
+![getty](https://thumbs.odycdn.com/d0685d48c1142814d34c9fdbad591a0f.webp)
+
+## Configurar Live analytics
+
+Las métricas de tus transmisiones en vivo son importantes para que conozcas el desempeño de cada directo que haces en Odysee. Estas analíticas te muestran aspectos como la cantidad de horas por transmisión en vivo, la media de espectadores y mucho más. Para configurar las analíticas de directos, debes poner el **ClaimID de tu canal de Odysee** que hará el directo, luego guardar los cambios.
+
+Para encontrar el ClaimID de tu canal en Odysee debes ir a la página de tu canal en Odysee, y en la pestaña de **"About"** podrás encontrar el ClaimID del canal, copias el ClaimID y lo pegas en el formulario de Live analytics en getty. Cuando vayas en vivo las analíticas registrarán la actividad de tu directo.
+
+![odysee](https://thumbs.odycdn.com/5b2ceb22b6c5324049125550fb1bff34.webp)
+
+![getty](https://thumbs.odycdn.com/8e89bbfebfa1fbeb2a95a6482526d5d8.webp)
+
+## Configurar chat en vivo
+
+El widget de chat en vivo tiene múltiples configuraciones, pero para que funcione en tu software de transmisión en vivo debes configurar el chat desde el admin de getty. Para esto, debes ir a la página de chat, luego, poner en ClaimID del post en vivo que hayas creado en Odysee el cual se usará para mostrar los mensajes de chat.
+
+El ClaimID del post lo encuentras presionando el icono de Créditos y allí podrás ver el ClaimID del post, lo copias y lo pegas en la configuración de chat en getty. Luego, guardas los cambios y copias la URL de integración para el OBS.
+
+![odysee](https://thumbs.odycdn.com/907b5ee95bf4bf4a62201fac627f5fa4.webp)
+
+::: important
+
+Los mensajes en el widget de chat no se almacenan en ninguna parte, por lo que si actualizas la fuente de navegador en OBS Studio los mensajes se perderán y recibirás los nuevos. Por ahora getty no almacena el historial de mensajes del widget de chat, pero creemos que esto debe ser necesario en algún momento.
+
+:::
+
+![getty](https://thumbs.odycdn.com/58826d96e18a12c0990c9c1dd1065e38.webp)
+
+En resumen, cada widget o módulo que requiera un ClaimID en específico lo podrás agregar manualmente. Por ejemplo, para configurar el widget de Espectadores o del sistema de logros debes poner el ClaimID del canal. Cada widget tiene su propia URL para integrar en wl OBS Studio o cualquier software de transmisión en vivo que uses para conectarte a Odysee.
+
+::: important
+
+En algunos casos es posible que OBS Studio almacene caché de algún widget. Si notas algún comportamiento extraño puedes actualizar el widget desde la fuente de navegador en OBS, limpiar la caché y probar de nuevo.
+
+:::
+
+## Instala getty en localhost
 
 ::: important
 
 La instalación de getty en tu computadora es totalmente opcional. Actualmente getty funciona en línea y puedes configurar tu cuenta y tener tus datos sincronizados en la nube cuando estés en vivo.
 
 :::
-
-Si quieres potenciar tus interacciones en vivo en Odysee usando getty, sigue esta guía paso a paso.
 
 ## Requisitos previos
 
@@ -25,7 +75,7 @@ Si quieres potenciar tus interacciones en vivo en Odysee usando getty, sigue est
 ## ¿Por qué getty usa Node.js?
 
 - Te permite ejecutar JavaScript en tu equipo (no solo en el navegador).
-- Ligero y rápido—ideal para alertas de streaming en tiempo real.
+- Ligero y rápido — ideal para alertas de streaming en tiempo real.
 - Proporciona acceso al sistema de archivos y a la red, necesario para conectar ==getty== con OBS, Discord, etc.
 - Usa pnpm (Node Package Manager), que simplifica la instalación de las bibliotecas externas que necesita Getty.
 
@@ -46,8 +96,8 @@ Si quieres potenciar tus interacciones en vivo en Odysee usando getty, sigue est
 
 ```sh
 corepack enable
-node -v   # debería imprimir v22.x.x
-pnpm -v   # Corepack aprovisionará pnpm@9.12.3
+node -v # debería imprimir v22.x.x
+pnpm -v # Corepack aprovisionará pnpm@9.12.3
 ```
 
 ## ¿Por qué no hay un instalador .exe tradicional?
@@ -64,15 +114,15 @@ Si estás familiarizado con GitHub, [clona el repositorio](https://github.com/es
 
 2. **Abrir una terminal en la carpeta de getty**
 
-Entra a la carpeta donde está Getty (ejemplo): `cd Downloads/getty`. O desde la carpeta, clic derecho, abrir terminal, luego ejecuta:
+Entra a la carpeta donde está getty (ejemplo): `cd Downloads/getty`, cambia el nombre del archivo `.env.example a .env`. Luego, clic derecho dentro de la carpeta, abrir terminal, luego ejecuta:
 
 ```sh
 pnpm install
 ```
 
-Esto instala todo lo que Getty necesita.
+Esto instala todo lo que getty necesita.
 
-3. **Compilar y ejecutar Getty**
+3. **Compilar y ejecutar getty**
 
 Ejecuta la app con:
 
@@ -81,9 +131,9 @@ pnpm run build
 pnpm run start:prod
 ```
 
-4. **¡Listo! Accede a Getty en tu navegador.**
+4. **¡Listo! Accede a getty en tu navegador.**
 
-Abre tu navegador y ve a la siguiente dirección para ver la ==página de inicio== de Getty:
+Abre tu navegador y ve a la siguiente dirección para ver la ==página de inicio== de getty:
 
 ```sh
 http://localhost:3000
@@ -111,7 +161,7 @@ http://localhost:3000/admin/status
 
 La página de administración de la app tiene todos los enlaces de widgets para OBS. Te recomiendo guardar los cambios en la página de admin y comprobar que todos estén activos, o al menos los que necesitas.
 
-![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
+![getty](https://thumbs.odycdn.com/f6efdb258f171eab858482e3402ffc78.webp)
 
 ## Cómo agregar widgets a OBS
 

@@ -57,7 +57,7 @@ If you want a no‑nonsense tool to power your streams, getty is the answer. Why
 
 :::
 
-![getty](https://thumbs.odycdn.com/8812c1f415b7e9693ee5f5e63f9f3ca6.webp)
+![getty](https://thumbs.odycdn.com/f6efdb258f171eab858482e3402ffc78.webp)
 
 ### ==Total freedom==
 
@@ -82,4 +82,4 @@ If you want a no‑nonsense tool to power your streams, getty is the answer. Why
 
 ### For streamers, built with care
 
-We know how frustrating it is when services suddenly go paid, throttle features, shut down—or simply ==ignore alternative platforms==. Getty is open source and built to last, with updates focused on what you actually need.
+We know how frustrating it is when services suddenly go paid, throttle features, shut down — or simply ==ignore alternative platforms==. Getty is open source and built to last, with updates focused on what you actually need.
