@@ -1,11 +1,11 @@
 ---
-title: Estructura de Getty
+title: Estructura de getty
 icon: ph:tree-structure-bold
 createTime: 2025/07/28 11:00
 permalink: /es/guide/project-structure/
 ---
 
-### Aquí se muestra la estructura de carpetas detallada del proyecto Getty basado en el repositorio
+### Estructura de carpetas detallada del proyecto getty basado en el repositorio
 
 ::: file-tree
 

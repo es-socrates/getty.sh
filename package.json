@@ -1,7 +1,7 @@
 {
   "name": "getty",
   "type": "module",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Complete and customizable app with tools for live streaming. Tip notifications, tip goals, chat widget, and real-time alerts for your live streams on Odysee.",
   "author": "Sócrates",
   "license": "MIT",

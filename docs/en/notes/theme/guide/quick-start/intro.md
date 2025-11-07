@@ -57,7 +57,7 @@ If you want a no‑nonsense tool to power your streams, getty is the answer. Why
 
 :::
 
-![getty](https://thumbs.odycdn.com/f6efdb258f171eab858482e3402ffc78.webp)
+![getty](https://thumbs.odycdn.com/897bc64158ac355aab54f0ca04dc58cc.webp)
 
 ### ==Total freedom==
 

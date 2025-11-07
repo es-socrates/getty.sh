@@ -53,3 +53,23 @@ mark {
   background-size: 200%;
   animation: mark-highlight 1.5s 0.5s forwards;
 }
+
+:root {
+  --getty-home-bg: #fff;
+}
+
+[data-theme="dark"] {
+  --getty-home-bg: #09090b;
+}
+
+.vp-home {
+  background-color: var(--getty-home-bg);
+}
+
+.vp-home-hero {
+  background-color: var(--getty-home-bg);
+}
+
+.vp-home-hero .bg-filter::after {
+  background: var(--getty-home-bg) !important;
+}

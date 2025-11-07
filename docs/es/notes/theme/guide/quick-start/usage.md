@@ -14,7 +14,7 @@ tags:
 
 Para configurar getty en el modo online y en localhost debes iniciar sesión con Wander. Wander App es una billetera digital segura y fácil de usar para Odysee, que te permite autenticarte en getty sin necesidad de contraseñas tradicionales. Es esencial para acceder a funciones de getty como la configuración de widgets y la gestión de datos cifrados. [Descarga Wander para empezar](https://www.wander.app/).
 
-![getty](https://thumbs.odycdn.com/9b4343aebb3729a88e5f87b93ed4caf1.webp)
+![getty](https://thumbs.odycdn.com/1eea40e8e08cc27af04e61104da25513.webp)
 
 ## Respalda tu billetera
 

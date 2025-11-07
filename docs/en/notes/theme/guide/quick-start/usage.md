@@ -14,7 +14,7 @@ tags:
 
 To set up getty in online mode and localhost, you need to sign in with Wander. Wander App is a secure and easy-to-use digital wallet for Odysee, allowing you to authenticate in getty without traditional passwords. It's essential to access getty features like widget configuration and encrypted data management. [Download Wander to get started](https://www.wander.app/).
 
-![getty](https://thumbs.odycdn.com/9b4343aebb3729a88e5f87b93ed4caf1.webp)
+![getty](https://thumbs.odycdn.com/1eea40e8e08cc27af04e61104da25513.webp)
 
 ## Back up your wallet
 
