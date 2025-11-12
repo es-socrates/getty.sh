@@ -8,7 +8,7 @@ tags:
   - Quick Start
 ---
 
-==Getty== is a complete and customizable live‑stream toolkit for **Odysee**: tip notifications, **tip goals**, chat widget, and **real‑time alerts** for your streams.
+==Getty==, the platform tools for live **streaming on Odysee**. This includes overlays, **tip alerts**, chat, giveaway system, **creator analytics** and more. It's free and open source!
 
 With getty, Odysee streamers get powerful tools to engage their audience. All **free**, simple, and with no sign‑up required, just use your **wander** wallet. Enjoy getty and look forward to more updates.
 
@@ -20,7 +20,7 @@ Installing **getty** on your computer is completely optional. Currently getty wo
 
 ![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
-::: details **New to Odysee? Take a look**
+::: details **Go live on Odysee**
 
 Odysee is a [blockchain‑based media platform](https://odysee.com/). It hosts all kinds of media—images, articles, PDFs, audio files, etc.—but is best known for video. Odysee aims to bring back the early‑2000s open internet spirit. Instead of boosting corporate late‑night shows, TV brands, or newsroom content, Odysee is a place for everyone, especially independent creators.
 
@@ -30,7 +30,7 @@ Odysee is a [blockchain‑based media platform](https://odysee.com/). It hosts a
 
 ## About Wander
 
-Wander App is a secure and easy-to-use digital wallet for Odysee, allowing you to authenticate to getty without the need for traditional passwords. It is essential for accessing Getty features such as widget configuration and encrypted data management. Download Wander from [Wander App](https://www.wander.app/) to get started.
+Wander App is a secure and easy-to-use digital wallet for Odysee, allowing you to authenticate to getty without the need for traditional passwords. It is essential for accessing getty features such as widget configuration and encrypted data management. Download Wander from [Wander App](https://www.wander.app/) to get started.
 
 ## The ultimate tool
 
@@ -61,7 +61,7 @@ If you want a no‑nonsense tool to power your streams, getty is the answer. Why
 
 ### ==Total freedom==
 
-- **No mandatory sign‑ups:** Use Getty instantly—no personal data, no account creation.
+- **No mandatory sign‑ups:** Use getty instantly—no personal data, no account creation.
 - **No server lock‑in:** As an optional use, getty can run directly from your PC, without risk of crashes due to massive traffic.
 - **You stay in control:** No middlemen, no arbitrary platform policy shifts.
 
@@ -73,7 +73,7 @@ If you want a no‑nonsense tool to power your streams, getty is the answer. Why
 ### Privacy guaranteed
 
 - **Your data is yours:** No selling, no hidden tracking.
-- **Runs anywhere:** Windows, Linux, Mac—Getty adapts without feature gating by “official support.”
+- **Runs anywhere:** Windows, Linux, Mac — getty adapts without feature gating by “official support.”
 
 ### Unlimited customization
 

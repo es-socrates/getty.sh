@@ -8,7 +8,7 @@ tags:
   - Inicio rápido
 ---
 
-==Getty==, una aplicación completa y personalizable con herramientas de transmisión en vivo para **Odysee**. Notificaciones de propinas, **objetivos de propinas**, widget de chat y **alertas en tiempo real** para tus transmisiones en vivo.
+==Getty==, La plataforma de herramientas para la **transmisión en vivo en Odysee**. Esto incluye overlays, **alertas de propinas**, chat, sistema de sorteos, **analíticas de creador** y mucho más. ¡Es gratis y de código abierto!
 
 Con getty, los streamers en Odysee tienen increíbles herramientas para interactuar con sus seguidores. Todo de forma sencilla, **gratuita** y sin registros, solo usa tu billetera **wander**. Disfruta de getty y espera más actualizaciones.
 
@@ -20,7 +20,7 @@ La instalación de **getty** en tu ordenador es totalmente opcional. Actualmente
 
 ![getty](https://thumbs.odycdn.com/72b81a6bea1e60356dcffc73ba58e5cd.webp)
 
-::: details **¿Nuevo en Odysee? Dale un vistazo**
+::: details **Crea tu directo en Odysee**
 
 Odysee es una [plataforma multimedia basada en blockchain](https://odysee.com/). Alojamos todo tipo de medios, como imágenes, artículos, PDF, archivos de audio, etc., pero somos más conocidos por alojar vídeos. Odysee pretende recuperar el espíritu de la Internet de principios de los años 2000. En lugar de favorecer los contenidos corporativos, como los programas de entrevistas nocturnas, las cadenas de televisión y los telediarios, Odysee es un lugar para todos, incluidos los creadores independientes.
 
@@ -73,7 +73,7 @@ Si buscas una herramienta para impulsar tus directos sin complicaciones, getty e
 ### Privacidad garantizada:
 
 - **Tus datos son solo tuyos:** No vendemos información ni realizamos seguimiento oculto.
-- **Funciona en cualquier entorno:** Windows, Linux, Mac. Getty se adapta sin bloquear funciones por el "soporte oficial".
+- **Funciona en cualquier entorno:** Windows, Linux, Mac - getty se adapta sin bloquear funciones por el "soporte oficial".
 
 ### Personalización ilimitada:
 
