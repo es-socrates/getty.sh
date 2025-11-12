@@ -112,7 +112,7 @@ pnpm -v # Corepack will provision pnpm@9.12.3
 
 1. **Clone or download the repository**
 
-If you're familiar with GitHub, [clone the repository](https://github.com/es-socrates/getty) using any git tool you like. **Option B:** download the ZIP and extract it on your PC.
+If you're familiar with GitHub, [clone the repository](https://github.com/gettyteam/getty) using any git tool you like. **Option B:** download the ZIP and extract it on your PC.
 
 2. **Open a terminal in the getty folder**
 

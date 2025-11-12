@@ -1,7 +1,7 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { enNavbar, esNavbar } from './navbar'
-import { enNotes } from './notes'
-import { esNotes } from './notes/es'
+import { enCollections } from './notes/en'
+import { esCollections } from './notes/es'
 
 export default defineThemeConfig({
   logo: '.vuepress/public/getty-fav.png',
@@ -9,7 +9,7 @@ export default defineThemeConfig({
   appearance: true,
 
   social: [
-    { icon: 'github', link: 'https://github.com/es-socrates/getty' },
+    { icon: 'github', link: 'https://github.com/gettyteam/getty' },
     { icon: 'twitter', link: 'https://x.com/getty_sh' },
   ],
 
@@ -30,17 +30,17 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'Complete, customizable app with live-streaming tools for Odysee. Download now!',
+        description: 'The platform tools for live streaming on Odysee. This includes overlays, tip alerts, chat, giveaway system, creator analytics and more.',
         // circle: true,
         // location: '',
         // organization: '',
       },
 
-      navbar: enNavbar,
-      notes: enNotes,
+  navbar: enNavbar,
+  collections: enCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/es-socrates/getty">getty</a> - This is not an official Odysee product. With love for Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - This is not an official Odysee product. With love for Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
 
@@ -55,14 +55,14 @@ export default defineThemeConfig({
       profile: {
         avatar: '.vuepress/public/getty-fav.png',
         name: 'getty',
-        description: 'Aplicación completa y personalizable con herramientas de transmisión en directo para Odysee.',
+        description: 'La plataforma de herramientas para la transmisión en vivo en Odysee. Esto incluye overlays, alertas de propinas, chat, sistema de sorteos, analíticas de creador y mucho más.',
       },
 
-      navbar: esNavbar,
-      notes: esNotes,
+  navbar: esNavbar,
+  collections: esCollections,
 
       footer: {
-        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/es-socrates/getty">getty</a> - No es un producto oficial de Odysee. Con cariño para Odysee ❤️ - Email: hello@getty.sh',
+        message: 'Copyright © λ 2025 <a target="_blank" href="https://github.com/gettyteam/getty">getty</a> - No es un producto oficial de Odysee. Con cariño para Odysee ❤️ - Email: hello@getty.sh',
         copyright: '',
       },
     },

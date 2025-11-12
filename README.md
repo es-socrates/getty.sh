@@ -1,4 +1,4 @@
-# ![Build VuePress Docs](https://github.com/es-socrates/getty.sh/actions/workflows/docs-build.yml/badge.svg)
+# ![Build VuePress Docs](https://github.com/getty-app/doc/actions/workflows/docs-build.yml/badge.svg)
 
 # Welcome to getty documentation
 

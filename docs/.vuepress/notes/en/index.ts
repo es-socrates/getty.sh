@@ -1,11 +1,9 @@
-import type { ThemeNoteListOptions } from 'vuepress-theme-plume'
-import { defineNotesConfig } from 'vuepress-theme-plume'
+import type { ThemeCollections } from 'vuepress-theme-plume'
+import { defineCollections } from 'vuepress-theme-plume'
 import { themeGuide } from './theme-guide'
+import { blog } from './blog'
 
-export const enNotes: ThemeNoteListOptions = defineNotesConfig({
-  dir: 'en/notes',
-  link: '/',
-  notes: [
-    themeGuide,
-  ],
-})
+export const enCollections: ThemeCollections = defineCollections([
+  themeGuide,
+  blog,
+])

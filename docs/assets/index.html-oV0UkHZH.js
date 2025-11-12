@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./app-BvJE3FTO.js";const a={};function o(r,s){return n(),t("div")}const l=e(a,[["render",o]]),i=JSON.parse('{"path":"/blog/","title":"Blog","lang":"en-US","frontmatter":{"lang":"en-US","title":"Blog","draft":true},"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":null,"headers":[],"type":"posts"}');export{l as comp,i as data};

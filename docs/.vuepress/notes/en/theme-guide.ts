@@ -1,21 +1,24 @@
-import type { ThemeNote } from 'vuepress-theme-plume'
-import { defineNoteConfig } from 'vuepress-theme-plume'
+import type { ThemeCollectionItem } from 'vuepress-theme-plume'
+import { defineCollection } from 'vuepress-theme-plume'
 
-export const themeGuide: ThemeNote = defineNoteConfig({
-  dir: 'theme/guide',
-  link: '/guide/',
+export const themeGuide: ThemeCollectionItem = defineCollection({
+  type: 'doc',
+  dir: 'en/notes/theme/guide',
+  title: 'Guide',
+  linkPrefix: '/en/guide/',
   sidebar: [
     {
       text: 'Quick Start',
       collapsed: false,
       icon: 'carbon:idea',
-      prefix: 'quick-start',
       items: [
-        'intro',
-        'usage',
-        'project-structure',
-        'blog',
-        'license',
+        { text: 'Introduction', link: '/en/guide/intro/' },
+        { text: 'Installation', link: '/en/guide/usage/' },
+        { text: 'The Widgets', link: '/en/guide/widgets/' },
+        { text: 'App Structure', link: '/en/guide/project-structure/' },
+        { text: 'MIT License', link: '/en/guide/license/' },
+        { text: 'Terms of Service', link: '/en/guide/terms/' },
+        { text: 'Privacy Policy', link: '/en/guide/privacypolicy/' },
       ],
     },
   ],

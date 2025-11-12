@@ -1,10 +1,12 @@
-import type { ThemeNote } from 'vuepress-theme-plume'
-import { defineNoteConfig } from 'vuepress-theme-plume'
+import type { ThemeCollectionItem } from 'vuepress-theme-plume'
+import { defineCollection } from 'vuepress-theme-plume'
 
 
-export const themeGuide: ThemeNote = defineNoteConfig({
-  dir: 'theme/guide',
-  link: '/guide/',
+export const themeGuide: ThemeCollectionItem = defineCollection({
+  type: 'doc',
+  dir: 'notes/theme/guide',
+  title: 'Guía',
+  linkPrefix: '/es/guide/',
   sidebar: [
     {
       text: 'Empieza aquí',
@@ -22,4 +24,3 @@ export const themeGuide: ThemeNote = defineNoteConfig({
     },
   ],
 })
-

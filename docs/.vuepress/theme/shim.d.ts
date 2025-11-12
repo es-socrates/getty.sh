@@ -6,3 +6,7 @@ declare module '*.vue' {
 }
 
 declare module '*.css'
+
+declare module '@internal/home-hero-effects' {
+  export const effectComponents: Record<string, unknown>
+}

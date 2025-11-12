@@ -9,8 +9,11 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
     link: '/en/guide/intro/',
     activeMatch: '^/en/guide/',
   },
-  { text: 'Blog', link: '/blog/',
+  {
+    text: 'Blog',
+    link: '/blog/',
     icon: 'material-symbols-light:inbox-text-outline-rounded',
+    activeMatch: '^/(en/)?blog/',
   },
   {
     text: 'App',
@@ -20,7 +23,7 @@ export const enNavbar: ThemeNavItem[] = defineNavbarConfig([
   {
     text: `${version}`,
     icon: 'codicon:versions',
-    link: 'https://github.com/es-socrates/getty/releases'
+    link: 'https://github.com/gettyteam/getty/releases'
   },
   {
     text: 'Odysee',
@@ -36,8 +39,11 @@ export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
     link: '/es/guide/intro/',
     activeMatch: '^/es/guide/',
   },
-  { text: 'Blog', link: '/es/blog/',
+  {
+    text: 'Blog',
+    link: '/es/blog/',
     icon: 'material-symbols-light:inbox-text-outline-rounded',
+    activeMatch: '^/es/blog/',
   },
   {
     text: 'App',
@@ -47,7 +53,7 @@ export const esNavbar: ThemeNavItem[] = defineNavbarConfig([
   {
     text: `${version}`,
     icon: 'codicon:versions',
-    link: 'https://github.com/es-socrates/getty/releases'
+    link: 'https://github.com/gettyteam/getty/releases'
   },
   {
     text: 'Odysee',
